@@ -26,7 +26,7 @@ PIPELINE_ID = "17448034"
 # Stages que el dashboard de HubSpot "CQL Equipo/negocio" cuenta como Ganado:
 # - 17448040: Cerrado | Ganado
 # - 213709702: Cerrado | Ganado Ejecutivo
-# - 152925871: Intencion de No Venta (prob=1.0, isClosed=true â€” raro pero HubSpot lo incluye)
+# - 152925871: Intencion de No Venta (prob=1.0, isClosed=true — raro pero HubSpot lo incluye)
 STAGES_WON = {"17448040", "213709702", "152925871"}
 YEAR_START = "2026-01-01"
 YEAR_END = "2027-01-01"
@@ -106,7 +106,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CQL Low Touch Â· 2026</title>
+<title>CQL 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -196,11 +196,11 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 <body>
   <header>
     <div>
-      <div class="brand">CUSTOMER INNOVATION Â· MKT</div>
-      <h1 style="margin-top:10px;">CQL Low Touch Â· 2026</h1>
+      <div class="brand">CUSTOMER INNOVATION · MKT</div>
+      <h1 style="margin-top:10px;">CQL 2026</h1>
       <div class="sub">
         Negocios en <b>One Pipeline</b> con <b>XQL Attribution Final = Customer</b> y tipo de negocio conocido.
-        Ganado = "Cerrado | Ganado" + "Cerrado | Ganado Ejecutivo" + "IntenciÃ³n de No Venta" (match HubSpot).
+        Ganado = "Cerrado | Ganado" + "Cerrado | Ganado Ejecutivo" + "Intención de No Venta" (match HubSpot).
         UF = valor en divisa de la empresa.
       </div>
     </div>
@@ -208,11 +208,11 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
   <div class="filter-block">
     <div class="filter-header">
-      <div class="filter-label">AtribuciÃ³n</div>
+      <div class="filter-label">Atribución</div>
     </div>
     <div class="toggle-group" id="attr-toggle">
       <button data-mode="closed" class="active">Por Cierre (HubSpot)</button>
-      <button data-mode="created">Por CreaciÃ³n</button>
+      <button data-mode="created">Por Creación</button>
     </div>
     <div class="subh" id="attr-desc" style="margin-top:8px;"></div>
   </div>
@@ -241,9 +241,9 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   </div>
 
   <div class="kpis">
-    <div class="kpi lev"><div class="label">Levantados</div><div class="value" id="kpi-lev">â€”</div><div class="hint" id="kpi-lev-hint"></div></div>
-    <div class="kpi gan"><div class="label">Ganados</div><div class="value" id="kpi-gan">â€”</div><div class="hint" id="kpi-gan-hint"></div></div>
-    <div class="kpi uf"><div class="label">UF Ganadas</div><div class="value" id="kpi-uf">â€”</div><div class="hint" id="kpi-uf-hint"></div></div>
+    <div class="kpi lev"><div class="label">Levantados</div><div class="value" id="kpi-lev">—</div><div class="hint" id="kpi-lev-hint"></div></div>
+    <div class="kpi gan"><div class="label">Ganados</div><div class="value" id="kpi-gan">—</div><div class="hint" id="kpi-gan-hint"></div></div>
+    <div class="kpi uf"><div class="label">UF Ganadas</div><div class="value" id="kpi-uf">—</div><div class="hint" id="kpi-uf-hint"></div></div>
   </div>
 
   <div class="grid">
@@ -258,7 +258,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
       <div class="chart-wrap"><canvas id="chart-uf"></canvas></div>
     </div>
     <div class="panel full">
-      <h3>DistribuciÃ³n por Tipo de Negocio (Ganados)</h3>
+      <h3>Distribución por Tipo de Negocio (Ganados)</h3>
       <div class="subh">Cantidad y UF ganada de deals cerrados en los meses seleccionados.</div>
       <div class="chart-wrap tall"><canvas id="chart-dealtype"></canvas></div>
     </div>
@@ -271,7 +271,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     </div>
   </div>
 
-  <div class="foot">Snapshot: <span id="ts"></span> Â· Fuente: HubSpot API Â· <span id="deal-count"></span> deals en 2026 Â· <span id="won-count"></span> ganados YTD</div>
+  <div class="foot">Snapshot: <span id="ts"></span> · Fuente: HubSpot API · <span id="deal-count"></span> deals en 2026 · <span id="won-count"></span> ganados YTD</div>
 
 <script>
 const DATA = __DATA_JSON__;
@@ -374,14 +374,14 @@ const tooltipStyle = {
 function render() {
   // Descripcion modo
   const modeDesc = state.mode === "created"
-    ? "Levantados y Ganados se cuentan por mes de <b>creaciÃ³n</b> del deal (cohorte de creaciÃ³n)."
-    : "Levantados por mes de <b>creaciÃ³n</b>; Ganados/UF por mes de <b>cierre</b> (view HubSpot dashboard).";
+    ? "<b>Cohorte de creación:</b> un deal creado en enero y cerrado en marzo cuenta en <b>enero</b>. Sirve para ver rendimiento de lo levantado en cada mes (¿de las oportunidades que generé en enero, cuántas terminé cerrando?)."
+    : "<b>Vista financiera (HubSpot):</b> un deal creado en enero y cerrado en marzo cuenta en <b>marzo</b>. Ingresos realizados por mes. Coincide con el dashboard de HubSpot.";
   document.getElementById("attr-desc").innerHTML = modeDesc;
   document.getElementById("sub-counts").innerHTML = state.mode === "created"
-    ? "AtribuciÃ³n por creaciÃ³n â€” de lo creado en cada mes, cuÃ¡nto se ganÃ³."
-    : "AtribuciÃ³n por cierre â€” ganados segÃºn el mes de cierre del deal.";
+    ? "Atribución por creación — de lo creado en cada mes, cuánto se ganó."
+    : "Atribución por cierre — ganados según el mes de cierre del deal.";
   document.getElementById("sub-uf").innerHTML = state.mode === "created"
-    ? "UF de deals ganados, atribuida al mes de creaciÃ³n."
+    ? "UF de deals ganados, atribuida al mes de creación."
     : "UF de deals ganados, atribuida al mes de cierre.";
 
   const selectedMonths = MONTHS.filter(m => state.months.has(m));
@@ -428,9 +428,9 @@ function render() {
   document.getElementById("kpi-lev").textContent = fmtNum(totLev);
   document.getElementById("kpi-gan").textContent = fmtNum(totGan);
   document.getElementById("kpi-uf").textContent  = fmtUF(totUf);
-  document.getElementById("kpi-lev-hint").textContent = state.equipos.size + " equipo(s) Â· " + state.months.size + " mes(es)";
-  document.getElementById("kpi-gan-hint").textContent = "conversiÃ³n " + fmtPct(totConv);
-  document.getElementById("kpi-uf-hint").textContent  = totGan ? ("promedio " + fmtUF(ufPerWin) + " UF / win") : "â€”";
+  document.getElementById("kpi-lev-hint").textContent = state.equipos.size + " equipo(s) · " + state.months.size + " mes(es)";
+  document.getElementById("kpi-gan-hint").textContent = "conversión " + fmtPct(totConv);
+  document.getElementById("kpi-uf-hint").textContent  = totGan ? ("promedio " + fmtUF(ufPerWin) + " UF / win") : "—";
 
   // Tabla
   const tbody = document.querySelector("#tbl tbody");
@@ -537,7 +537,7 @@ function render() {
             font: { weight: "700", size: 12 },
             formatter: (v, ctx) => {
               const ufVal = tUf[ctx.dataIndex];
-              return v > 0 ? fmtNum(v) + "  Â·  " + fmtUF(ufVal) + " UF" : "";
+              return v > 0 ? fmtNum(v) + "  ·  " + fmtUF(ufVal) + " UF" : "";
             }
           }
         }
@@ -554,7 +554,7 @@ function render() {
             label: ctx => {
               const g = ctx.parsed.x;
               const u = tUf[ctx.dataIndex];
-              return fmtNum(g) + " ganados Â· " + fmtUF(u) + " UF";
+              return fmtNum(g) + " ganados · " + fmtUF(u) + " UF";
             }
           }
         })

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CQL Low Touch · Q1 2026</title>
+<title>CQL Low Touch · 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -32,16 +32,25 @@
     padding: 32px 40px 48px;
     min-height: 100vh;
   }
-  header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 28px; gap: 24px; flex-wrap: wrap; }
+  header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; }
   h1 { margin: 0; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
   .sub { color: var(--muted); font-size: 13px; margin-top: 6px; max-width: 720px; line-height: 1.5; }
   .brand { display: inline-flex; align-items: center; gap: 8px; padding: 4px 10px; background: var(--card); border: 1px solid var(--border); border-radius: 999px; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
   .brand::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--gan); box-shadow: 0 0 8px var(--gan); }
-  .controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 24px; }
-  .controls label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
-  select { background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 10px 14px; border-radius: 8px; font-size: 14px; font-family: inherit; min-width: 260px; cursor: pointer; outline: none; transition: border-color 0.15s; }
-  select:hover, select:focus { border-color: var(--lev); }
-  .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px; }
+
+  .filter-block { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; box-shadow: var(--shadow); }
+  .filter-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 12px; flex-wrap: wrap; }
+  .filter-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; }
+  .filter-actions { display: flex; gap: 8px; }
+  .btn-sm { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer; font-family: inherit; font-weight: 500; transition: all 0.12s; }
+  .btn-sm:hover { border-color: var(--lev); color: var(--text); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-2); color: var(--muted); font-size: 12px; font-weight: 500; transition: all 0.12s; white-space: nowrap; }
+  .chip:hover { border-color: var(--lev); color: var(--text); }
+  .chip.active { background: var(--lev); border-color: var(--lev); color: #fff; }
+  .chip.active-gan { background: var(--gan); border-color: var(--gan); color: #0a0f1e; }
+
+  .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 16px; }
   .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; box-shadow: var(--shadow); position: relative; overflow: hidden; }
   .kpi::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent, var(--lev)); }
   .kpi.lev { --accent: var(--lev); }
@@ -51,17 +60,20 @@
   .kpi .value { font-size: 34px; font-weight: 700; margin-top: 8px; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
   .kpi.uf .value { color: var(--uf); }
   .kpi .hint { color: var(--muted); font-size: 12px; margin-top: 4px; }
+
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .panel { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px 22px; box-shadow: var(--shadow); }
   .panel.full { grid-column: 1 / -1; }
   .panel h3 { margin: 0 0 16px; font-size: 13px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
-  .chart-wrap { position: relative; height: 300px; }
+  .chart-wrap { position: relative; height: 320px; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
-  th, td { padding: 12px 14px; text-align: right; border-bottom: 1px solid var(--border); }
+  th, td { padding: 10px 12px; text-align: right; border-bottom: 1px solid var(--border); }
   th:first-child, td:first-child { text-align: left; }
-  th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
   tbody tr:hover { background: rgba(91,141,239,0.06); }
   tr.total td { font-weight: 700; border-top: 2px solid var(--border); border-bottom: none; background: var(--card-2); }
+  tr.empty td { color: var(--muted); }
+
   .foot { color: var(--muted); font-size: 11px; margin-top: 24px; text-align: right; border-top: 1px solid var(--border); padding-top: 12px; }
   @media (max-width: 860px) {
     body { padding: 20px; }
@@ -74,30 +86,49 @@
   <header>
     <div>
       <div class="brand">CUSTOMER INNOVATION · MKT</div>
-      <h1 style="margin-top:10px;">CQL Low Touch · Q1 2026</h1>
+      <h1 style="margin-top:10px;">CQL Low Touch · 2026</h1>
       <div class="sub">
         Negocios en <b>One Pipeline</b> con <b>XQL Attribution Final = Customer</b> y tipo de negocio conocido.
         Atribución por mes de <b>creación</b>. Ganado = etapa "Cerrado | Ganado". UF = valor en divisa de la empresa.
       </div>
     </div>
-    <div class="controls">
-      <label for="equipo">Equipo Origen</label>
-      <select id="equipo"></select>
-    </div>
   </header>
 
+  <div class="filter-block">
+    <div class="filter-header">
+      <div class="filter-label">Equipo Origen</div>
+      <div class="filter-actions">
+        <button class="btn-sm" data-action="all-teams">Todos</button>
+        <button class="btn-sm" data-action="none-teams">Ninguno</button>
+      </div>
+    </div>
+    <div class="chips" id="chips-equipos"></div>
+  </div>
+
+  <div class="filter-block">
+    <div class="filter-header">
+      <div class="filter-label">Mes</div>
+      <div class="filter-actions">
+        <button class="btn-sm" data-action="all-months">Todos</button>
+        <button class="btn-sm" data-action="ytd-months">YTD</button>
+        <button class="btn-sm" data-action="none-months">Ninguno</button>
+      </div>
+    </div>
+    <div class="chips" id="chips-months"></div>
+  </div>
+
   <div class="kpis">
-    <div class="kpi lev"><div class="label">Levantados Q1</div><div class="value" id="kpi-lev">—</div><div class="hint" id="kpi-lev-hint"></div></div>
-    <div class="kpi gan"><div class="label">Ganados Q1</div><div class="value" id="kpi-gan">—</div><div class="hint" id="kpi-gan-hint"></div></div>
-    <div class="kpi uf"><div class="label">UF Ganadas Q1</div><div class="value" id="kpi-uf">—</div><div class="hint" id="kpi-uf-hint"></div></div>
+    <div class="kpi lev"><div class="label">Levantados</div><div class="value" id="kpi-lev">—</div><div class="hint" id="kpi-lev-hint"></div></div>
+    <div class="kpi gan"><div class="label">Ganados</div><div class="value" id="kpi-gan">—</div><div class="hint" id="kpi-gan-hint"></div></div>
+    <div class="kpi uf"><div class="label">UF Ganadas</div><div class="value" id="kpi-uf">—</div><div class="hint" id="kpi-uf-hint"></div></div>
   </div>
 
   <div class="grid">
-    <div class="panel">
+    <div class="panel full">
       <h3>Levantados vs Ganados por mes</h3>
       <div class="chart-wrap"><canvas id="chart-counts"></canvas></div>
     </div>
-    <div class="panel">
+    <div class="panel full">
       <h3>UF Ganadas por mes</h3>
       <div class="chart-wrap"><canvas id="chart-uf"></canvas></div>
     </div>
@@ -110,27 +141,97 @@
     </div>
   </div>
 
-  <div class="foot">Snapshot: <span id="ts"></span> · Fuente: HubSpot API · <span id="deal-count"></span> deals</div>
+  <div class="foot">Snapshot: <span id="ts"></span> · Fuente: HubSpot API · <span id="deal-count"></span> deals en 2026</div>
 
 <script>
-const DATA = {"generated_at": "2026-04-23 17:26 UTC", "deal_count": 964, "equipos": ["(sin equipo_origen)", "ACT + ENG", "Customer Activation", "Customer Care", "Customer Engagement", "Customer Success", "MKT + ENG", "Marketing", "Retention & Collection", "Retention & Collection + ENG"], "agg": {"__ALL__": {"2026-01": {"levantados": 310, "ganados": 55, "uf_ganadas": 93.0637}, "2026-02": {"levantados": 295, "ganados": 90, "uf_ganadas": 148.57200000000003}, "2026-03": {"levantados": 359, "ganados": 86, "uf_ganadas": 150.27240000000003}}, "ACT + ENG": {"2026-01": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}}, "Customer Care": {"2026-01": {"levantados": 74, "ganados": 23, "uf_ganadas": 35.684000000000005}, "2026-02": {"levantados": 90, "ganados": 35, "uf_ganadas": 47.460499999999996}, "2026-03": {"levantados": 116, "ganados": 44, "uf_ganadas": 78.97250000000003}}, "MKT + ENG": {"2026-01": {"levantados": 114, "ganados": 7, "uf_ganadas": 12.5875}, "2026-02": {"levantados": 87, "ganados": 12, "uf_ganadas": 23.364}, "2026-03": {"levantados": 108, "ganados": 14, "uf_ganadas": 23.4234}}, "Retention & Collection + ENG": {"2026-01": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 1, "ganados": 1, "uf_ganadas": 0.84}}, "Customer Activation": {"2026-01": {"levantados": 68, "ganados": 13, "uf_ganadas": 22.093999999999998}, "2026-02": {"levantados": 72, "ganados": 23, "uf_ganadas": 38.273999999999994}, "2026-03": {"levantados": 85, "ganados": 17, "uf_ganadas": 31.113999999999997}}, "Customer Engagement": {"2026-01": {"levantados": 22, "ganados": 6, "uf_ganadas": 9.764000000000001}, "2026-02": {"levantados": 14, "ganados": 7, "uf_ganadas": 14.2635}, "2026-03": {"levantados": 18, "ganados": 3, "uf_ganadas": 5.72}}, "Retention & Collection": {"2026-01": {"levantados": 18, "ganados": 6, "uf_ganadas": 12.934199999999999}, "2026-02": {"levantados": 6, "ganados": 3, "uf_ganadas": 6.731}, "2026-03": {"levantados": 18, "ganados": 4, "uf_ganadas": 7.289999999999999}}, "Customer Success": {"2026-01": {"levantados": 6, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 17, "ganados": 5, "uf_ganadas": 5.745}, "2026-03": {"levantados": 7, "ganados": 2, "uf_ganadas": 1.4725}}, "Marketing": {"2026-01": {"levantados": 3, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 4, "ganados": 0, "uf_ganadas": 0.0}}, "(sin equipo_origen)": {"2026-01": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 6, "ganados": 5, "uf_ganadas": 12.734000000000002}, "2026-03": {"levantados": 1, "ganados": 1, "uf_ganadas": 1.44}}}, "filters": {"pipeline_id": "17448034", "pipeline_name": "One Pipeline", "xql_attribution_final": "Customer", "dealtype": "HAS_PROPERTY (Tipo de negocio conocido)", "stage_won_id": "17448040", "stage_won_label": "Cerrado | Ganado", "createdate_range": "2026-01-01 <= createdate < 2026-04-01", "attribution": "Mes de creacion (createdate)"}};
-const MONTHS = ["2026-01","2026-02","2026-03"];
-const MONTH_LABELS = ["Enero","Febrero","Marzo"];
+const DATA = {"generated_at": "2026-04-23 18:39 UTC", "deal_count": 1146, "months": ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10", "2026-11", "2026-12"], "month_labels": ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"], "months_with_data": ["2026-01", "2026-02", "2026-03", "2026-04"], "equipos": ["(sin equipo_origen)", "ACT + ENG", "Customer Activation", "Customer Care", "Customer Engagement", "Customer Success", "MKT + ENG", "Marketing", "Retention & Collection", "Retention & Collection + ENG", "Ventas"], "agg": {"ACT + ENG": {"2026-01": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-04": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Customer Care": {"2026-01": {"levantados": 74, "ganados": 23, "uf_ganadas": 35.684000000000005}, "2026-02": {"levantados": 90, "ganados": 35, "uf_ganadas": 47.460499999999996}, "2026-03": {"levantados": 116, "ganados": 45, "uf_ganadas": 81.02250000000002}, "2026-04": {"levantados": 74, "ganados": 17, "uf_ganadas": 20.842499999999998}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "MKT + ENG": {"2026-01": {"levantados": 114, "ganados": 7, "uf_ganadas": 12.5875}, "2026-02": {"levantados": 87, "ganados": 12, "uf_ganadas": 23.364}, "2026-03": {"levantados": 108, "ganados": 14, "uf_ganadas": 23.4234}, "2026-04": {"levantados": 13, "ganados": 1, "uf_ganadas": 1.04}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Retention & Collection + ENG": {"2026-01": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 1, "ganados": 1, "uf_ganadas": 0.84}, "2026-04": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Customer Activation": {"2026-01": {"levantados": 68, "ganados": 13, "uf_ganadas": 22.093999999999998}, "2026-02": {"levantados": 72, "ganados": 23, "uf_ganadas": 38.273999999999994}, "2026-03": {"levantados": 85, "ganados": 17, "uf_ganadas": 31.113999999999997}, "2026-04": {"levantados": 67, "ganados": 11, "uf_ganadas": 13.934000000000001}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Customer Engagement": {"2026-01": {"levantados": 22, "ganados": 6, "uf_ganadas": 9.764000000000001}, "2026-02": {"levantados": 14, "ganados": 7, "uf_ganadas": 14.2635}, "2026-03": {"levantados": 18, "ganados": 3, "uf_ganadas": 5.72}, "2026-04": {"levantados": 10, "ganados": 3, "uf_ganadas": 6.540000000000001}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Retention & Collection": {"2026-01": {"levantados": 18, "ganados": 6, "uf_ganadas": 12.934199999999999}, "2026-02": {"levantados": 6, "ganados": 3, "uf_ganadas": 6.731}, "2026-03": {"levantados": 18, "ganados": 4, "uf_ganadas": 7.289999999999999}, "2026-04": {"levantados": 9, "ganados": 3, "uf_ganadas": 3.63}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Customer Success": {"2026-01": {"levantados": 6, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 17, "ganados": 5, "uf_ganadas": 5.745}, "2026-03": {"levantados": 7, "ganados": 2, "uf_ganadas": 1.4725}, "2026-04": {"levantados": 3, "ganados": 1, "uf_ganadas": 3.22}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Marketing": {"2026-01": {"levantados": 3, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 4, "ganados": 0, "uf_ganadas": 0.0}, "2026-04": {"levantados": 3, "ganados": 0, "uf_ganadas": 0.0}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "(sin equipo_origen)": {"2026-01": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 6, "ganados": 5, "uf_ganadas": 12.734000000000002}, "2026-03": {"levantados": 1, "ganados": 1, "uf_ganadas": 1.44}, "2026-04": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}, "Ventas": {"2026-01": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-04": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-05": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-06": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-07": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-08": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-09": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-10": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-11": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-12": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}}}, "filters": {"pipeline_id": "17448034", "pipeline_name": "One Pipeline", "xql_attribution_final": "Customer", "dealtype": "HAS_PROPERTY (Tipo de negocio conocido)", "stage_won_id": "17448040", "stage_won_label": "Cerrado | Ganado", "createdate_range": "2026-01-01 <= createdate < 2027-01-01", "attribution": "Mes de creacion (createdate)"}};
+const MONTHS = DATA.months;
+const MONTH_LABELS = DATA.month_labels;
+const EQUIPOS = DATA.equipos;
 
 const fmtNum = n => new Intl.NumberFormat("es-CL").format(n);
 const fmtUF  = n => new Intl.NumberFormat("es-CL",{maximumFractionDigits:1}).format(n);
 const fmtPct = n => (isFinite(n) ? n.toFixed(1) : "0.0") + "%";
 
-const sel = document.getElementById("equipo");
-const options = [["__ALL__","Todos los equipos"]].concat(DATA.equipos.map(e => [e, e]));
-options.forEach(([v,l]) => {
-  const opt = document.createElement("option");
-  opt.value = v; opt.textContent = l;
-  sel.appendChild(opt);
+// ---------- State ----------
+const state = {
+  equipos: new Set(EQUIPOS),
+  months: new Set(DATA.months_with_data),  // default: solo meses con data
+};
+
+// ---------- Chip builders ----------
+const chipsEquipos = document.getElementById("chips-equipos");
+EQUIPOS.forEach(e => {
+  const chip = document.createElement("span");
+  chip.className = "chip active";
+  chip.textContent = e;
+  chip.dataset.value = e;
+  chip.addEventListener("click", () => {
+    if (state.equipos.has(e)) { state.equipos.delete(e); chip.classList.remove("active"); }
+    else { state.equipos.add(e); chip.classList.add("active"); }
+    render();
+  });
+  chipsEquipos.appendChild(chip);
 });
 
-let chartCounts, chartUf;
+const chipsMonths = document.getElementById("chips-months");
+MONTHS.forEach((m, i) => {
+  const chip = document.createElement("span");
+  chip.className = state.months.has(m) ? "chip active-gan" : "chip";
+  chip.textContent = MONTH_LABELS[i];
+  chip.dataset.value = m;
+  chip.addEventListener("click", () => {
+    if (state.months.has(m)) { state.months.delete(m); chip.classList.remove("active-gan"); }
+    else { state.months.add(m); chip.classList.add("active-gan"); }
+    render();
+  });
+  chipsMonths.appendChild(chip);
+});
 
+// ---------- Action buttons ----------
+document.querySelectorAll("[data-action]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const a = btn.dataset.action;
+    if (a === "all-teams") { state.equipos = new Set(EQUIPOS); setAllChips(chipsEquipos, true, "active"); }
+    if (a === "none-teams") { state.equipos = new Set(); setAllChips(chipsEquipos, false, "active"); }
+    if (a === "all-months") { state.months = new Set(MONTHS); setAllChips(chipsMonths, true, "active-gan"); }
+    if (a === "ytd-months") { state.months = new Set(DATA.months_with_data); setSelectedChips(chipsMonths, DATA.months_with_data, "active-gan"); }
+    if (a === "none-months") { state.months = new Set(); setAllChips(chipsMonths, false, "active-gan"); }
+    render();
+  });
+});
+
+function setAllChips(container, on, cls) {
+  container.querySelectorAll(".chip").forEach(c => {
+    if (on) c.classList.add(cls); else c.classList.remove(cls);
+  });
+}
+function setSelectedChips(container, selectedValues, cls) {
+  const set = new Set(selectedValues);
+  container.querySelectorAll(".chip").forEach(c => {
+    if (set.has(c.dataset.value)) c.classList.add(cls);
+    else c.classList.remove(cls);
+  });
+}
+
+// ---------- Aggregation with current filters ----------
+function aggregated() {
+  const out = {};
+  MONTHS.forEach(m => out[m] = { levantados: 0, ganados: 0, uf_ganadas: 0 });
+  state.equipos.forEach(eq => {
+    const row = DATA.agg[eq];
+    if (!row) return;
+    MONTHS.forEach(m => {
+      out[m].levantados += row[m].levantados;
+      out[m].ganados += row[m].ganados;
+      out[m].uf_ganadas += row[m].uf_ganadas;
+    });
+  });
+  return out;
+}
+
+// ---------- Charts ----------
+let chartCounts, chartUf;
 Chart.defaults.font.family = "'Inter', sans-serif";
 Chart.defaults.color = "#8891aa";
 Chart.defaults.borderColor = "rgba(36,45,82,0.8)";
@@ -139,12 +240,21 @@ const commonScales = {
   x: { ticks: { color: "#8891aa" }, grid: { display: false } },
   y: { ticks: { color: "#8891aa" }, grid: { color: "rgba(36,45,82,0.5)" }, beginAtZero: true }
 };
+const tooltipStyle = {
+  backgroundColor: "#0e152a", borderColor: "#242d52", borderWidth: 1, padding: 12,
+  titleColor: "#e8ecf5", bodyColor: "#e8ecf5"
+};
 
-function render(equipo) {
-  const rows = DATA.agg[equipo] || DATA.agg["__ALL__"];
-  const lev = MONTHS.map(m => rows[m].levantados);
-  const gan = MONTHS.map(m => rows[m].ganados);
-  const uf  = MONTHS.map(m => rows[m].uf_ganadas);
+function render() {
+  const agg = aggregated();
+
+  // Orden de meses seleccionados
+  const selectedMonths = MONTHS.filter(m => state.months.has(m));
+  const selectedLabels = selectedMonths.map(m => MONTH_LABELS[MONTHS.indexOf(m)]);
+
+  const lev = selectedMonths.map(m => agg[m].levantados);
+  const gan = selectedMonths.map(m => agg[m].ganados);
+  const uf  = selectedMonths.map(m => agg[m].uf_ganadas);
 
   const totLev = lev.reduce((a,b)=>a+b,0);
   const totGan = gan.reduce((a,b)=>a+b,0);
@@ -155,49 +265,61 @@ function render(equipo) {
   document.getElementById("kpi-lev").textContent = fmtNum(totLev);
   document.getElementById("kpi-gan").textContent = fmtNum(totGan);
   document.getElementById("kpi-uf").textContent  = fmtUF(totUf);
-  document.getElementById("kpi-lev-hint").textContent = "deals creados en Q1";
-  document.getElementById("kpi-gan-hint").textContent = "conversión " + fmtPct(totConv);
-  document.getElementById("kpi-uf-hint").textContent  = "promedio " + fmtUF(ufPerWin) + " UF por win";
 
+  const ctxStr = state.equipos.size + " equipo(s) · " + state.months.size + " mes(es)";
+  document.getElementById("kpi-lev-hint").textContent = ctxStr;
+  document.getElementById("kpi-gan-hint").textContent = "conversión " + fmtPct(totConv);
+  document.getElementById("kpi-uf-hint").textContent  = totGan ? ("promedio " + fmtUF(ufPerWin) + " UF / win") : "—";
+
+  // Tabla
   const tbody = document.querySelector("#tbl tbody");
   tbody.innerHTML = "";
-  MONTHS.forEach((m,i) => {
-    const conv = lev[i] ? (gan[i]/lev[i]*100) : 0;
-    const perWin = gan[i] ? (uf[i]/gan[i]) : 0;
+  if (selectedMonths.length === 0) {
     const tr = document.createElement("tr");
-    tr.innerHTML = "<td>" + MONTH_LABELS[i] + "</td>"
-      + "<td>" + fmtNum(lev[i]) + "</td>"
-      + "<td>" + fmtNum(gan[i]) + "</td>"
-      + "<td>" + fmtPct(conv) + "</td>"
-      + "<td>" + fmtUF(uf[i]) + "</td>"
-      + "<td>" + fmtUF(perWin) + "</td>";
+    tr.className = "empty";
+    tr.innerHTML = "<td colspan=6>Sin meses seleccionados</td>";
     tbody.appendChild(tr);
-  });
-  const trt = document.createElement("tr");
-  trt.className = "total";
-  trt.innerHTML = "<td>Total Q1</td>"
-    + "<td>" + fmtNum(totLev) + "</td>"
-    + "<td>" + fmtNum(totGan) + "</td>"
-    + "<td>" + fmtPct(totConv) + "</td>"
-    + "<td>" + fmtUF(totUf) + "</td>"
-    + "<td>" + fmtUF(ufPerWin) + "</td>";
-  tbody.appendChild(trt);
+  } else {
+    selectedMonths.forEach((m, i) => {
+      const conv = lev[i] ? (gan[i]/lev[i]*100) : 0;
+      const perWin = gan[i] ? (uf[i]/gan[i]) : 0;
+      const tr = document.createElement("tr");
+      if (lev[i] === 0) tr.className = "empty";
+      tr.innerHTML = "<td>" + selectedLabels[i] + "</td>"
+        + "<td>" + fmtNum(lev[i]) + "</td>"
+        + "<td>" + fmtNum(gan[i]) + "</td>"
+        + "<td>" + fmtPct(conv) + "</td>"
+        + "<td>" + fmtUF(uf[i]) + "</td>"
+        + "<td>" + fmtUF(perWin) + "</td>";
+      tbody.appendChild(tr);
+    });
+    const trt = document.createElement("tr");
+    trt.className = "total";
+    trt.innerHTML = "<td>Total</td>"
+      + "<td>" + fmtNum(totLev) + "</td>"
+      + "<td>" + fmtNum(totGan) + "</td>"
+      + "<td>" + fmtPct(totConv) + "</td>"
+      + "<td>" + fmtUF(totUf) + "</td>"
+      + "<td>" + fmtUF(ufPerWin) + "</td>";
+    tbody.appendChild(trt);
+  }
 
+  // Charts
   if (chartCounts) chartCounts.destroy();
   chartCounts = new Chart(document.getElementById("chart-counts"), {
     type: "bar",
     data: {
-      labels: MONTH_LABELS,
+      labels: selectedLabels,
       datasets: [
-        { label: "Levantados", data: lev, backgroundColor: "#5b8def", borderRadius: 6, maxBarThickness: 60 },
-        { label: "Ganados",    data: gan, backgroundColor: "#7de2b4", borderRadius: 6, maxBarThickness: 60 }
+        { label: "Levantados", data: lev, backgroundColor: "#5b8def", borderRadius: 6, maxBarThickness: 48 },
+        { label: "Ganados",    data: gan, backgroundColor: "#7de2b4", borderRadius: 6, maxBarThickness: 48 }
       ]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: { position: "top", labels: { color: "#e8ecf5", padding: 16, boxWidth: 12, usePointStyle: true, pointStyle: "rectRounded" } },
-        tooltip: { backgroundColor: "#0e152a", borderColor: "#242d52", borderWidth: 1, padding: 12, titleColor: "#e8ecf5", bodyColor: "#e8ecf5" }
+        tooltip: tooltipStyle
       },
       scales: commonScales
     }
@@ -207,28 +329,23 @@ function render(equipo) {
   chartUf = new Chart(document.getElementById("chart-uf"), {
     type: "bar",
     data: {
-      labels: MONTH_LABELS,
-      datasets: [{ label: "UF Ganadas", data: uf, backgroundColor: "#ffb86b", borderRadius: 6, maxBarThickness: 60 }]
+      labels: selectedLabels,
+      datasets: [{ label: "UF Ganadas", data: uf, backgroundColor: "#ffb86b", borderRadius: 6, maxBarThickness: 48 }]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: {
-          backgroundColor: "#0e152a", borderColor: "#242d52", borderWidth: 1, padding: 12,
-          titleColor: "#e8ecf5", bodyColor: "#e8ecf5",
-          callbacks: { label: ctx => fmtUF(ctx.parsed.y) + " UF" }
-        }
+        tooltip: Object.assign({}, tooltipStyle, { callbacks: { label: ctx => fmtUF(ctx.parsed.y) + " UF" } })
       },
       scales: commonScales
     }
   });
 }
 
-sel.addEventListener("change", e => render(e.target.value));
 document.getElementById("ts").textContent = DATA.generated_at;
 document.getElementById("deal-count").textContent = DATA.deal_count;
-render("__ALL__");
+render();
 </script>
 </body>
 </html>

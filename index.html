@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CQL Low Touch Q1 2026 — Dashboard Marketing</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {{
+    --bg: #0b1020; --card: #141b33; --text: #e6eaf2; --muted: #8b93a7;
+    --accent: #5b8def; --accent2: #7de2b4; --accent3: #ffb86b; --border: #232b47;
+  }}
+  * {{ box-sizing: border-box; }}
+  body {{
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px;
+  }}
+  h1 {{ margin: 0 0 4px; font-size: 22px; }}
+  .sub {{ color: var(--muted); font-size: 13px; margin-bottom: 20px; }}
+  .controls {{
+    display: flex; gap: 12px; align-items: center; margin-bottom: 20px;
+    flex-wrap: wrap;
+  }}
+  label {{ font-size: 13px; color: var(--muted); }}
+  select {{
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    padding: 8px 12px; border-radius: 6px; font-size: 14px; min-width: 240px;
+  }}
+  .kpis {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px; }}
+  .kpi {{
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 20px;
+  }}
+  .kpi .label {{ color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }}
+  .kpi .value {{ font-size: 28px; font-weight: 600; margin-top: 6px; }}
+  .kpi .value.uf {{ color: var(--accent2); }}
+  .grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }}
+  .panel {{
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; min-height: 320px;
+  }}
+  .panel h3 {{ margin: 0 0 12px; font-size: 14px; color: var(--muted); font-weight: 500; }}
+  .panel.full {{ grid-column: 1 / -1; }}
+  table {{ width: 100%; border-collapse: collapse; font-size: 13px; }}
+  th, td {{ padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--border); }}
+  th:first-child, td:first-child {{ text-align: left; }}
+  th {{ color: var(--muted); font-weight: 500; }}
+  tr.total td {{ font-weight: 600; border-top: 2px solid var(--border); border-bottom: none; }}
+  .foot {{ color: var(--muted); font-size: 11px; margin-top: 16px; text-align: right; }}
+</style>
+</head>
+<body>
+  <h1>CQL Low Touch · Q1 2026</h1>
+  <div class="sub">
+    Negocios creados en Q1 2026 · Pipeline One Pipeline · XQL Attribution Final = Customer · Tipo de negocio conocido.
+    Ganados = etapa "Cerrado | Ganado". UF = Valor en divisa de la empresa.
+  </div>
+
+  <div class="controls">
+    <label for="equipo">Equipo Origen:</label>
+    <select id="equipo"></select>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="label">Levantados Q1</div><div class="value" id="kpi-lev">—</div></div>
+    <div class="kpi"><div class="label">Ganados Q1</div><div class="value" id="kpi-gan">—</div></div>
+    <div class="kpi"><div class="label">UF Ganadas Q1</div><div class="value uf" id="kpi-uf">—</div></div>
+  </div>
+
+  <div class="grid">
+    <div class="panel"><h3>Levantados vs Ganados por mes</h3><canvas id="chart-counts"></canvas></div>
+    <div class="panel"><h3>UF Ganadas por mes</h3><canvas id="chart-uf"></canvas></div>
+    <div class="panel full">
+      <h3>Detalle por mes</h3>
+      <table id="tbl">
+        <thead><tr><th>Mes</th><th>Levantados</th><th>Ganados</th><th>Conv %</th><th>UF Ganadas</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="foot">Snapshot: <span id="ts"></span> · Fuente: HubSpot API (One Pipeline) · Atribución por mes de creación</div>
+
+<script>
+const DATA = {"generated_at": "2026-04-23 16:56 UTC", "deal_count": 964, "equipos": ["(sin equipo_origen)", "ACT + ENG", "Customer Activation", "Customer Care", "Customer Engagement", "Customer Success", "MKT + ENG", "Marketing", "Retention & Collection", "Retention & Collection + ENG"], "agg": {"__ALL__": {"2026-01": {"levantados": 310, "ganados": 55, "uf_ganadas": 93.0637}, "2026-02": {"levantados": 295, "ganados": 90, "uf_ganadas": 148.57200000000003}, "2026-03": {"levantados": 359, "ganados": 86, "uf_ganadas": 150.27240000000003}}, "ACT + ENG": {"2026-01": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 0, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}}, "Customer Care": {"2026-01": {"levantados": 74, "ganados": 23, "uf_ganadas": 35.684000000000005}, "2026-02": {"levantados": 90, "ganados": 35, "uf_ganadas": 47.460499999999996}, "2026-03": {"levantados": 116, "ganados": 44, "uf_ganadas": 78.97250000000003}}, "MKT + ENG": {"2026-01": {"levantados": 114, "ganados": 7, "uf_ganadas": 12.5875}, "2026-02": {"levantados": 87, "ganados": 12, "uf_ganadas": 23.364}, "2026-03": {"levantados": 108, "ganados": 14, "uf_ganadas": 23.4234}}, "Retention & Collection + ENG": {"2026-01": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 1, "ganados": 1, "uf_ganadas": 0.84}}, "Customer Activation": {"2026-01": {"levantados": 68, "ganados": 13, "uf_ganadas": 22.093999999999998}, "2026-02": {"levantados": 72, "ganados": 23, "uf_ganadas": 38.273999999999994}, "2026-03": {"levantados": 85, "ganados": 17, "uf_ganadas": 31.113999999999997}}, "Customer Engagement": {"2026-01": {"levantados": 22, "ganados": 6, "uf_ganadas": 9.764000000000001}, "2026-02": {"levantados": 14, "ganados": 7, "uf_ganadas": 14.2635}, "2026-03": {"levantados": 18, "ganados": 3, "uf_ganadas": 5.72}}, "Retention & Collection": {"2026-01": {"levantados": 18, "ganados": 6, "uf_ganadas": 12.934199999999999}, "2026-02": {"levantados": 6, "ganados": 3, "uf_ganadas": 6.731}, "2026-03": {"levantados": 18, "ganados": 4, "uf_ganadas": 7.289999999999999}}, "Customer Success": {"2026-01": {"levantados": 6, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 17, "ganados": 5, "uf_ganadas": 5.745}, "2026-03": {"levantados": 7, "ganados": 2, "uf_ganadas": 1.4725}}, "Marketing": {"2026-01": {"levantados": 3, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 2, "ganados": 0, "uf_ganadas": 0.0}, "2026-03": {"levantados": 4, "ganados": 0, "uf_ganadas": 0.0}}, "(sin equipo_origen)": {"2026-01": {"levantados": 1, "ganados": 0, "uf_ganadas": 0.0}, "2026-02": {"levantados": 6, "ganados": 5, "uf_ganadas": 12.734000000000002}, "2026-03": {"levantados": 1, "ganados": 1, "uf_ganadas": 1.44}}}, "filters": {"pipeline_id": "17448034", "pipeline_name": "One Pipeline", "xql_attribution_final": "Customer", "dealtype": "HAS_PROPERTY (Tipo de negocio conocido)", "stage_won_id": "17448040", "stage_won_label": "Cerrado | Ganado", "createdate_range": "2026-01-01 <= createdate < 2026-04-01", "attribution": "Mes de creacion (createdate)"}};
+const MONTHS = ["2026-01","2026-02","2026-03"];
+const MONTH_LABELS = ["Enero","Febrero","Marzo"];
+
+const fmtNum = n => new Intl.NumberFormat("es-CL").format(n);
+const fmtUF  = n => new Intl.NumberFormat("es-CL",{maximumFractionDigits:1}).format(n);
+
+const sel = document.getElementById("equipo");
+["__ALL__", ...DATA.equipos].forEach(e => {{
+  const opt = document.createElement("option");
+  opt.value = e;
+  opt.textContent = e === "__ALL__" ? "Todos los equipos" : e;
+  sel.appendChild(opt);
+}});
+
+let chartCounts, chartUf;
+
+function render(equipo) {{
+  const rows = DATA.agg[equipo] || DATA.agg["__ALL__"];
+  const lev = MONTHS.map(m => rows[m].levantados);
+  const gan = MONTHS.map(m => rows[m].ganados);
+  const uf  = MONTHS.map(m => rows[m].uf_ganadas);
+
+  const totLev = lev.reduce((a,b)=>a+b,0);
+  const totGan = gan.reduce((a,b)=>a+b,0);
+  const totUf  = uf.reduce((a,b)=>a+b,0);
+
+  document.getElementById("kpi-lev").textContent = fmtNum(totLev);
+  document.getElementById("kpi-gan").textContent = fmtNum(totGan);
+  document.getElementById("kpi-uf").textContent  = fmtUF(totUf);
+
+  const tbody = document.querySelector("#tbl tbody");
+  tbody.innerHTML = "";
+  MONTHS.forEach((m,i) => {{
+    const conv = lev[i] ? (gan[i]/lev[i]*100).toFixed(1) : "0.0";
+    tbody.insertAdjacentHTML("beforeend",
+      `<tr><td>${{MONTH_LABELS[i]}}</td><td>${{fmtNum(lev[i])}}</td><td>${{fmtNum(gan[i])}}</td><td>${{conv}}%</td><td>${{fmtUF(uf[i])}}</td></tr>`);
+  }});
+  const totConv = totLev ? (totGan/totLev*100).toFixed(1) : "0.0";
+  tbody.insertAdjacentHTML("beforeend",
+    `<tr class="total"><td>Total Q1</td><td>${{fmtNum(totLev)}}</td><td>${{fmtNum(totGan)}}</td><td>${{totConv}}%</td><td>${{fmtUF(totUf)}}</td></tr>`);
+
+  const colors = {{ lev: "#5b8def", gan: "#7de2b4", uf: "#ffb86b" }};
+
+  if (chartCounts) chartCounts.destroy();
+  chartCounts = new Chart(document.getElementById("chart-counts"), {{
+    type: "bar",
+    data: {{
+      labels: MONTH_LABELS,
+      datasets: [
+        {{label: "Levantados", data: lev, backgroundColor: colors.lev}},
+        {{label: "Ganados",    data: gan, backgroundColor: colors.gan}},
+      ]
+    }},
+    options: {{
+      plugins: {{ legend: {{ labels: {{ color: "#e6eaf2" }} }} }},
+      scales: {{
+        x: {{ ticks: {{ color: "#8b93a7" }}, grid: {{ color: "#232b47" }} }},
+        y: {{ ticks: {{ color: "#8b93a7" }}, grid: {{ color: "#232b47" }}, beginAtZero: true }}
+      }}
+    }}
+  }});
+
+  if (chartUf) chartUf.destroy();
+  chartUf = new Chart(document.getElementById("chart-uf"), {{
+    type: "bar",
+    data: {{
+      labels: MONTH_LABELS,
+      datasets: [{{label: "UF Ganadas", data: uf, backgroundColor: colors.uf}}]
+    }},
+    options: {{
+      plugins: {{ legend: {{ labels: {{ color: "#e6eaf2" }} }} }},
+      scales: {{
+        x: {{ ticks: {{ color: "#8b93a7" }}, grid: {{ color: "#232b47" }} }},
+        y: {{ ticks: {{ color: "#8b93a7" }}, grid: {{ color: "#232b47" }}, beginAtZero: true }}
+      }}
+    }}
+  }});
+}}
+
+sel.addEventListener("change", e => render(e.target.value));
+document.getElementById("ts").textContent = DATA.generated_at;
+render("__ALL__");
+</script>
+</body>
+</html>

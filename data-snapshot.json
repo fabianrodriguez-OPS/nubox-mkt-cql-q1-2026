@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-23 20:54 UTC",
+  "generated_at": "2026-04-23 21:47 UTC",
   "deal_count": 1148,
-  "won_count": 295,
+  "won_count": 296,
   "months": [
     "2026-01",
     "2026-02",
@@ -9224,13 +9224,13 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 1.25
     },
     {
       "e": "Customer Activation",
-      "t": "Distancia",
+      "t": "Cruce",
       "cm": "2026-04",
       "xm": "",
       "w": 0,
@@ -9238,7 +9238,7 @@
     },
     {
       "e": "Customer Activation",
-      "t": "Cruce",
+      "t": "Add-on",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

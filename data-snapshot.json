@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24 18:54 UTC",
-  "deal_count": 1158,
+  "generated_at": "2026-04-24 19:53 UTC",
+  "deal_count": 1160,
   "won_count": 302,
   "months": [
     "2026-01",
@@ -9319,6 +9319,22 @@
     {
       "e": "Customer Engagement",
       "t": "Add-on",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

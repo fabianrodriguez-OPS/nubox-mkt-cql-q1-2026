@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-24 11:57 UTC",
+  "generated_at": "2026-04-24 13:58 UTC",
   "deal_count": 1149,
-  "won_count": 297,
+  "won_count": 298,
   "months": [
     "2026-01",
     "2026-02",
@@ -9168,9 +9168,9 @@
       "e": "Customer Activation",
       "t": "Add-on",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 1.25
     },
     {
       "e": "MKT + ENG",

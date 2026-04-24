@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-24 13:58 UTC",
+  "generated_at": "2026-04-24 15:15 UTC",
   "deal_count": 1149,
-  "won_count": 298,
+  "won_count": 299,
   "months": [
     "2026-01",
     "2026-02",
@@ -8960,9 +8960,9 @@
       "e": "Retention & Collection",
       "t": "Reintegro",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 0.8
     },
     {
       "e": "Customer Care",
@@ -9246,7 +9246,7 @@
     },
     {
       "e": "Customer Activation",
-      "t": "Add-on",
+      "t": "Referencia",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

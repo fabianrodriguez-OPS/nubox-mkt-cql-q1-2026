@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-27 19:24 UTC",
-  "deal_count": 1178,
+  "generated_at": "2026-04-27 21:03 UTC",
+  "deal_count": 1179,
   "won_count": 308,
   "months": [
     "2026-01",
@@ -7840,9 +7840,9 @@
       "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-04",
-      "xm": "2026-04",
-      "w": 1,
-      "u": 0.45
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Engagement",
@@ -9224,9 +9224,9 @@
       "e": "(sin equipo_origen)",
       "t": "Add-on",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 2.737
     },
     {
       "e": "Marketing",
@@ -9479,6 +9479,14 @@
     {
       "e": "Customer Care",
       "t": "Reintegro",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

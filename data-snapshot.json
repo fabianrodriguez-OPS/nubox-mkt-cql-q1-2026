@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-27 11:05 UTC",
-  "deal_count": 1167,
+  "generated_at": "2026-04-27 13:56 UTC",
+  "deal_count": 1170,
   "won_count": 304,
   "months": [
     "2026-01",
@@ -9253,6 +9253,14 @@
       "u": 1.6275
     },
     {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-04",
@@ -9391,6 +9399,22 @@
     {
       "e": "Customer Care",
       "t": "Add-on",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "MKT + ENG",
+      "t": "Cruce",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

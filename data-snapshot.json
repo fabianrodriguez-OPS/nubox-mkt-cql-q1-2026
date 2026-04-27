@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-27 13:56 UTC",
-  "deal_count": 1170,
-  "won_count": 304,
+  "generated_at": "2026-04-27 15:51 UTC",
+  "deal_count": 1171,
+  "won_count": 307,
   "months": [
     "2026-01",
     "2026-02",
@@ -5326,7 +5326,7 @@
     },
     {
       "e": "Customer Care",
-      "t": "Upsell y Cruce",
+      "t": "Add-on",
       "cm": "2026-03",
       "xm": "",
       "w": 0,
@@ -7760,9 +7760,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-03",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 5.0765
     },
     {
       "e": "Customer Engagement",
@@ -7864,9 +7864,9 @@
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 2.18
     },
     {
       "e": "Marketing",
@@ -9232,9 +9232,9 @@
       "e": "(sin equipo_origen)",
       "t": "Add-on",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 1.384
     },
     {
       "e": "(sin equipo_origen)",
@@ -9415,6 +9415,14 @@
     {
       "e": "Customer Activation",
       "t": "Cruce",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Reintegro",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

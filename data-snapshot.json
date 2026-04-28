@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28 21:59 UTC",
-  "deal_count": 1195,
-  "won_count": 317,
+  "generated_at": "2026-04-28 23:03 UTC",
+  "deal_count": 1196,
+  "won_count": 318,
   "months": [
     "2026-01",
     "2026-02",
@@ -9291,6 +9291,14 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Add-on",
+      "cm": "2026-04",
+      "xm": "2026-04",
+      "w": 1,
+      "u": 3.995
     },
     {
       "e": "Customer Care",

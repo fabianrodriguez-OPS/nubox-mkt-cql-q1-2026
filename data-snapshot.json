@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30 17:22 UTC",
-  "deal_count": 1219,
+  "generated_at": "2026-04-30 19:23 UTC",
+  "deal_count": 1220,
   "won_count": 330,
   "months": [
     "2026-01",
@@ -9391,7 +9391,7 @@
     },
     {
       "e": "Customer Success",
-      "t": "Upsell y Cruce",
+      "t": "Aumento de plan",
       "cm": "2026-04",
       "xm": "2026-04",
       "w": 1,
@@ -9808,6 +9808,14 @@
     {
       "e": "Customer Care",
       "t": "Empresas Adicionales",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Aumento de plan",
       "cm": "2026-04",
       "xm": "",
       "w": 0,

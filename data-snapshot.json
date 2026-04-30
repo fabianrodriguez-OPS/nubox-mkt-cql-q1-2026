@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30 21:02 UTC",
-  "deal_count": 1221,
+  "generated_at": "2026-04-30 22:54 UTC",
+  "deal_count": 1222,
   "won_count": 330,
   "months": [
     "2026-01",
@@ -9236,6 +9236,14 @@
       "xm": "2026-04",
       "w": 1,
       "u": 1.384
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-04",
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "(sin equipo_origen)",

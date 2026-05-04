@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04 16:46 UTC",
-  "deal_count": 1242,
+  "generated_at": "2026-05-04 18:15 UTC",
+  "deal_count": 1244,
   "won_count": 332,
   "months": [
     "2026-01",
@@ -9993,6 +9993,22 @@
     {
       "e": "Customer Engagement",
       "t": "Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Usuario",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

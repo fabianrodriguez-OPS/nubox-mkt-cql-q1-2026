@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-04 18:15 UTC",
+  "generated_at": "2026-05-04 20:16 UTC",
   "deal_count": 1244,
-  "won_count": 332,
+  "won_count": 333,
   "months": [
     "2026-01",
     "2026-02",
@@ -5114,9 +5114,9 @@
       "e": "MKT + ENG",
       "t": "Aumento de plan",
       "cm": "2026-03",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 1.91
     },
     {
       "e": "MKT + ENG",

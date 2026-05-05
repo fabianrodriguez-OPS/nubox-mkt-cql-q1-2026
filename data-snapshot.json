@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-05 12:02 UTC",
-  "deal_count": 1245,
+  "generated_at": "2026-05-05 15:09 UTC",
+  "deal_count": 1247,
   "won_count": 334,
   "months": [
     "2026-01",
@@ -9191,14 +9191,6 @@
       "u": 0
     },
     {
-      "e": "Customer Care",
-      "t": "Usuario",
-      "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
-    },
-    {
       "e": "Marketing",
       "t": "Add-on",
       "cm": "2026-04",
@@ -9968,7 +9960,7 @@
     },
     {
       "e": "Customer Care",
-      "t": "Cruce",
+      "t": "Aumento de plan",
       "cm": "2026-05",
       "xm": "",
       "w": 0,
@@ -10008,7 +10000,7 @@
     },
     {
       "e": "Customer Activation",
-      "t": "Usuario",
+      "t": "Add-on",
       "cm": "2026-05",
       "xm": "",
       "w": 0,
@@ -10016,6 +10008,30 @@
     },
     {
       "e": "Customer Activation",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "MKT + ENG",
+      "t": "Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Distancia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-05",
       "xm": "",

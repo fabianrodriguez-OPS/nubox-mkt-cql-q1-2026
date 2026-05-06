@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-06 11:48 UTC",
-  "deal_count": 1254,
+  "generated_at": "2026-05-06 14:13 UTC",
+  "deal_count": 1257,
   "won_count": 336,
   "months": [
     "2026-01",
@@ -8392,7 +8392,7 @@
     },
     {
       "e": "Customer Care",
-      "t": "Distancia",
+      "t": "Referencia",
       "cm": "2026-04",
       "xm": "2026-04",
       "w": 1,
@@ -10056,7 +10056,7 @@
     },
     {
       "e": "Customer Activation",
-      "t": "Cruce",
+      "t": "Referencia",
       "cm": "2026-05",
       "xm": "",
       "w": 0,
@@ -10089,6 +10089,30 @@
     {
       "e": "Customer Success",
       "t": "Upsell y Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

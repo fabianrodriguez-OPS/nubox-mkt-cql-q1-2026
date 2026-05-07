@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-06 23:57 UTC",
+  "generated_at": "2026-05-07 03:46 UTC",
   "deal_count": 1267,
-  "won_count": 341,
+  "won_count": 342,
   "months": [
     "2026-01",
     "2026-02",
@@ -10065,9 +10065,9 @@
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.65
     },
     {
       "e": "Customer Care",

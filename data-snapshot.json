@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-13 18:02 UTC",
-  "deal_count": 1310,
-  "won_count": 361,
+  "generated_at": "2026-05-13 20:46 UTC",
+  "deal_count": 1316,
+  "won_count": 365,
   "months": [
     "2026-01",
     "2026-02",
@@ -46,6 +46,7 @@
     "Customer Success",
     "MKT + ENG",
     "Marketing",
+    "Marketing - Email",
     "Retention & Collection",
     "Retention & Collection + ENG",
     "Ventas"
@@ -9823,11 +9824,11 @@
     },
     {
       "e": "Customer Engagement",
-      "t": "Upsell y Cruce",
+      "t": "Aumento de plan",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.02
     },
     {
       "e": "Customer Care",
@@ -10401,9 +10402,9 @@
       "e": "Customer Activation",
       "t": "Cruce",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.8
     },
     {
       "e": "Customer Success",
@@ -10425,9 +10426,9 @@
       "e": "Customer Activation",
       "t": "Cruce",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.308
     },
     {
       "e": "Customer Care",
@@ -10449,9 +10450,9 @@
       "e": "Customer Activation",
       "t": "Add-on",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.875
     },
     {
       "e": "Customer Activation",
@@ -10536,6 +10537,54 @@
     {
       "e": "Retention & Collection",
       "t": "Reintegro",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Referencia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Marketing - Email",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-15 19:39 UTC",
-  "deal_count": 1333,
+  "generated_at": "2026-05-15 21:01 UTC",
+  "deal_count": 1335,
   "won_count": 374,
   "months": [
     "2026-01",
@@ -10721,6 +10721,22 @@
     {
       "e": "Customer Activation",
       "t": "Add-on",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

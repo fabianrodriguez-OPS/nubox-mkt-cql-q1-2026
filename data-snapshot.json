@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15 12:53 UTC",
-  "deal_count": 1327,
-  "won_count": 371,
+  "generated_at": "2026-05-15 15:13 UTC",
+  "deal_count": 1331,
+  "won_count": 372,
   "months": [
     "2026-01",
     "2026-02",
@@ -9896,11 +9896,11 @@
     },
     {
       "e": "Retention & Collection",
-      "t": "Referencia",
+      "t": "Aumento de plan",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.39
     },
     {
       "e": "Customer Care",
@@ -10677,6 +10677,38 @@
       "xm": "2026-05",
       "w": 1,
       "u": 3.05
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "MKT + ENG",
+      "t": "Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Upsell y Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
     }
   ],
   "filters": {

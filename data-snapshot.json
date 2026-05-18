@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-18 18:52 UTC",
-  "deal_count": 1339,
+  "generated_at": "2026-05-18 20:25 UTC",
+  "deal_count": 1343,
   "won_count": 377,
   "months": [
     "2026-01",
@@ -10223,6 +10223,14 @@
       "u": 0
     },
     {
+      "e": "Marketing",
+      "t": "Distancia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-05",
@@ -10567,6 +10575,14 @@
       "u": 0
     },
     {
+      "e": "Marketing",
+      "t": "Distancia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
       "e": "Marketing - Email",
       "t": "Aumento de plan",
       "cm": "2026-05",
@@ -10743,6 +10759,14 @@
       "u": 1.65
     },
     {
+      "e": "Marketing",
+      "t": "Distancia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
       "e": "Customer Engagement",
       "t": "Add-on",
       "cm": "2026-05",
@@ -10769,6 +10793,14 @@
     {
       "e": "Customer Activation",
       "t": "Usuario",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Success",
+      "t": "Cruce",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-19 21:20 UTC",
+  "generated_at": "2026-05-19 23:02 UTC",
   "deal_count": 1357,
-  "won_count": 378,
+  "won_count": 379,
   "months": [
     "2026-01",
     "2026-02",
@@ -10856,11 +10856,11 @@
     },
     {
       "e": "Customer Care",
-      "t": "Upsell y Cruce",
+      "t": "Add-on",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.84
     },
     {
       "e": "Customer Care",

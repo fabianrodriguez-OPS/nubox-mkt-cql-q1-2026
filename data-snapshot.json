@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-20 16:54 UTC",
+  "generated_at": "2026-05-20 19:25 UTC",
   "deal_count": 1362,
-  "won_count": 379,
+  "won_count": 381,
   "months": [
     "2026-01",
     "2026-02",
@@ -10538,9 +10538,9 @@
       "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.7
     },
     {
       "e": "Retention & Collection",
@@ -10562,9 +10562,9 @@
       "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.7
     },
     {
       "e": "Customer Engagement",

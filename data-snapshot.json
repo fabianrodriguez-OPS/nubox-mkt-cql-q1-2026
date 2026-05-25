@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25 12:32 UTC",
-  "deal_count": 1378,
-  "won_count": 388,
+  "generated_at": "2026-05-25 15:51 UTC",
+  "deal_count": 1380,
+  "won_count": 389,
   "months": [
     "2026-01",
     "2026-02",
@@ -10826,9 +10826,9 @@
       "e": "Customer Care",
       "t": "Reintegro",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.75
     },
     {
       "e": "Retention & Collection",
@@ -11065,6 +11065,22 @@
     {
       "e": "Customer Activation",
       "t": "Referencia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Usuario",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Reintegro",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

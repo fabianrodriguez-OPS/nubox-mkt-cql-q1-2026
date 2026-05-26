@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-26 15:31 UTC",
-  "deal_count": 1382,
+  "generated_at": "2026-05-26 18:26 UTC",
+  "deal_count": 1385,
   "won_count": 392,
   "months": [
     "2026-01",
@@ -11113,6 +11113,30 @@
     {
       "e": "Customer Care",
       "t": "Reintegro",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Referencia",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26 07:50 UTC",
-  "deal_count": 1381,
-  "won_count": 391,
+  "generated_at": "2026-05-26 15:31 UTC",
+  "deal_count": 1382,
+  "won_count": 392,
   "months": [
     "2026-01",
     "2026-02",
@@ -11082,9 +11082,9 @@
       "e": "Retention & Collection",
       "t": "Reintegro",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.225
     },
     {
       "e": "Customer Activation",
@@ -11105,6 +11105,14 @@
     {
       "e": "Customer Care",
       "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
       "cm": "2026-05",
       "xm": "",
       "w": 0,

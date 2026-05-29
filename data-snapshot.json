@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-29 21:08 UTC",
+  "generated_at": "2026-05-29 23:13 UTC",
   "deal_count": 1459,
-  "won_count": 406,
+  "won_count": 420,
   "months": [
     "2026-01",
     "2026-02",
@@ -8306,9 +8306,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 18.2
     },
     {
       "e": "Customer Engagement",
@@ -8322,25 +8322,25 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Retention & Collection",
@@ -8458,57 +8458,57 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 19.1
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Activation",
@@ -8522,9 +8522,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 2.82
     },
     {
       "e": "Customer Care",
@@ -10698,9 +10698,9 @@
       "e": "Customer Activation",
       "t": "Cruce",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 4.19
     },
     {
       "e": "Customer Engagement",
@@ -11154,9 +11154,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.84
     },
     {
       "e": "Customer Care",

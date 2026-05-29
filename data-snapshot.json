@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-29 15:34 UTC",
-  "deal_count": 1455,
-  "won_count": 402,
+  "generated_at": "2026-05-29 18:33 UTC",
+  "deal_count": 1457,
+  "won_count": 406,
   "months": [
     "2026-01",
     "2026-02",
@@ -9479,6 +9479,14 @@
       "u": 0
     },
     {
+      "e": "Customer Engagement",
+      "t": "Add-on",
+      "cm": "2026-04",
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.2975
+    },
+    {
       "e": "Retention & Collection",
       "t": "Reintegro",
       "cm": "2026-04",
@@ -11138,9 +11146,9 @@
       "e": "Customer Engagement",
       "t": "Cruce",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.47
     },
     {
       "e": "Customer Care",
@@ -11466,9 +11474,9 @@
       "e": "Customer Engagement",
       "t": "Cruce",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.526
     },
     {
       "e": "Customer Engagement",
@@ -11538,9 +11546,9 @@
       "e": "Customer Engagement",
       "t": "Referencia",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.45
     },
     {
       "e": "Customer Engagement",
@@ -11685,6 +11693,14 @@
       "xm": "2026-05",
       "w": 1,
       "u": 1.0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Cruce",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Engagement",

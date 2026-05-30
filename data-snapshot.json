@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-30 17:05 UTC",
+  "generated_at": "2026-05-30 19:17 UTC",
   "deal_count": 1460,
-  "won_count": 420,
+  "won_count": 421,
   "months": [
     "2026-01",
     "2026-02",
@@ -11392,11 +11392,11 @@
     },
     {
       "e": "Customer Engagement",
-      "t": "Cruce",
+      "t": "Distancia",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Activation",

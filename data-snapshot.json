@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-01 12:37 UTC",
-  "deal_count": 1461,
-  "won_count": 421,
+  "generated_at": "2026-06-01 18:38 UTC",
+  "deal_count": 1473,
+  "won_count": 422,
   "months": [
     "2026-01",
     "2026-02",
@@ -35,7 +35,8 @@
     "2026-02",
     "2026-03",
     "2026-04",
-    "2026-05"
+    "2026-05",
+    "2026-06"
   ],
   "equipos": [
     "(sin equipo_origen)",
@@ -6578,9 +6579,9 @@
       "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-03",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.43
     },
     {
       "e": "MKT + ENG",
@@ -8466,9 +8467,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "2026-05",
-      "w": 1,
-      "u": 2.82
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Care",
@@ -8484,7 +8485,7 @@
       "cm": "2026-04",
       "xm": "2026-05",
       "w": 1,
-      "u": 2.82
+      "u": 17.82
     },
     {
       "e": "Customer Care",
@@ -9968,11 +9969,11 @@
     },
     {
       "e": "MKT + ENG",
-      "t": "Cruce",
+      "t": "Add-on",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.33
     },
     {
       "e": "MKT + ENG",
@@ -11746,6 +11747,102 @@
       "e": "Customer Engagement",
       "t": "Cruce",
       "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Referencia",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "MKT + ENG",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "MKT + ENG",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
+      "cm": "2026-06",
       "xm": "",
       "w": 0,
       "u": 0

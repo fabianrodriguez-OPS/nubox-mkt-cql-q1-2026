@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-02 10:24 UTC",
-  "deal_count": 1475,
+  "generated_at": "2026-06-02 14:52 UTC",
+  "deal_count": 1479,
   "won_count": 424,
   "months": [
     "2026-01",
@@ -11858,6 +11858,38 @@
     {
       "e": "Retention & Collection",
       "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Success",
+      "t": "Upsell y Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

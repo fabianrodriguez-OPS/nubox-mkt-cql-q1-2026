@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03 18:44 UTC",
-  "deal_count": 1521,
-  "won_count": 430,
+  "generated_at": "2026-06-03 21:49 UTC",
+  "deal_count": 1530,
+  "won_count": 438,
   "months": [
     "2026-01",
     "2026-02",
@@ -11569,7 +11569,7 @@
     },
     {
       "e": "Customer Engagement",
-      "t": "Cruce",
+      "t": "Referencia",
       "cm": "2026-05",
       "xm": "",
       "w": 0,
@@ -11851,9 +11851,9 @@
       "e": "Customer Engagement",
       "t": "Cruce",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Retention & Collection",
@@ -11882,6 +11882,14 @@
     {
       "e": "Customer Success",
       "t": "Upsell y Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Cruce",
       "cm": "2026-06",
       "xm": "",
       "w": 0,
@@ -12091,9 +12099,9 @@
       "e": "Customer Engagement",
       "t": "Cruce",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Engagement",
@@ -12158,6 +12166,14 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 2.64
     },
     {
       "e": "Customer Engagement",
@@ -12230,6 +12246,62 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Reintegro",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.25
+    },
+    {
+      "e": "Customer Success",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.25
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.25
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.25
     }
   ],
   "filters": {

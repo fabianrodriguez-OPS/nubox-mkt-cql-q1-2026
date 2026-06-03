@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-03 04:12 UTC",
-  "deal_count": 1494,
+  "generated_at": "2026-06-03 09:26 UTC",
+  "deal_count": 1495,
   "won_count": 429,
   "months": [
     "2026-01",
@@ -12010,6 +12010,14 @@
     {
       "e": "Customer Care",
       "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Referencia",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

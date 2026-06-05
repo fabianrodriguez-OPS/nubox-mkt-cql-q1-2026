@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-05 21:40 UTC",
-  "deal_count": 1565,
-  "won_count": 441,
+  "generated_at": "2026-06-05 23:10 UTC",
+  "deal_count": 1566,
+  "won_count": 442,
   "months": [
     "2026-01",
     "2026-02",
@@ -11307,9 +11307,9 @@
       "e": "Customer Care",
       "t": "Distancia",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Care",
@@ -12578,6 +12578,14 @@
     {
       "e": "Customer Care",
       "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

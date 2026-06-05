@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05 00:08 UTC",
-  "deal_count": 1554,
+  "generated_at": "2026-06-05 05:18 UTC",
+  "deal_count": 1555,
   "won_count": 440,
   "months": [
     "2026-01",
@@ -12490,6 +12490,14 @@
     {
       "e": "Customer Engagement",
       "t": "Referencia",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Cruce",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

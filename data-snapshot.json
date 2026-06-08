@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-08 09:22 UTC",
-  "deal_count": 1566,
+  "generated_at": "2026-06-08 14:07 UTC",
+  "deal_count": 1567,
   "won_count": 443,
   "months": [
     "2026-01",
@@ -12586,6 +12586,14 @@
     {
       "e": "Customer Care",
       "t": "Usuario",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

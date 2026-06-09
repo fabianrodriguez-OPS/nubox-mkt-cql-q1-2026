@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-09 18:07 UTC",
-  "deal_count": 1582,
-  "won_count": 447,
+  "generated_at": "2026-06-09 20:58 UTC",
+  "deal_count": 1583,
+  "won_count": 448,
   "months": [
     "2026-01",
     "2026-02",
@@ -10608,6 +10608,14 @@
       "u": 1.68
     },
     {
+      "e": "(sin equipo_origen)",
+      "t": "Aumento de plan",
+      "cm": "2026-05",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
       "e": "Marketing - Email",
       "t": "Aumento de plan",
       "cm": "2026-05",
@@ -11841,7 +11849,7 @@
     },
     {
       "e": "Marketing",
-      "t": "Distancia",
+      "t": "Add-on",
       "cm": "2026-06",
       "xm": "",
       "w": 0,
@@ -12528,14 +12536,6 @@
       "u": 0
     },
     {
-      "e": "Retention & Collection",
-      "t": "Reintegro",
-      "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
-    },
-    {
       "e": "Customer Activation",
       "t": "Aumento de plan",
       "cm": "2026-06",
@@ -12643,9 +12643,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 4.1775
     },
     {
       "e": "Customer Care",
@@ -12714,6 +12714,14 @@
     {
       "e": "Customer Care",
       "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

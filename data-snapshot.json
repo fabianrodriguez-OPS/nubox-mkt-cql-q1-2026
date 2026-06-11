@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-11 14:37 UTC",
-  "deal_count": 1597,
-  "won_count": 455,
+  "generated_at": "2026-06-11 18:14 UTC",
+  "deal_count": 1603,
+  "won_count": 458,
   "months": [
     "2026-01",
     "2026-02",
@@ -11987,9 +11987,9 @@
       "e": "Customer Engagement",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 5.0025
     },
     {
       "e": "Customer Activation",
@@ -12459,9 +12459,9 @@
       "e": "Customer Activation",
       "t": "Add-on",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.45
     },
     {
       "e": "Customer Engagement",
@@ -12787,9 +12787,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 2.737
     },
     {
       "e": "Customer Activation",
@@ -12834,6 +12834,54 @@
     {
       "e": "Retention & Collection",
       "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Referencia",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

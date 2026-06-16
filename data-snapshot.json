@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16 10:07 UTC",
-  "deal_count": 1616,
+  "generated_at": "2026-06-16 15:54 UTC",
+  "deal_count": 1620,
   "won_count": 461,
   "months": [
     "2026-01",
@@ -12753,7 +12753,7 @@
     },
     {
       "e": "MKT + ENG",
-      "t": "Cruce",
+      "t": "Add-on",
       "cm": "2026-06",
       "xm": "",
       "w": 0,
@@ -12986,6 +12986,38 @@
     {
       "e": "Customer Activation",
       "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Referencia",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17 18:18 UTC",
-  "deal_count": 1628,
-  "won_count": 465,
+  "generated_at": "2026-06-17 21:07 UTC",
+  "deal_count": 1629,
+  "won_count": 466,
   "months": [
     "2026-01",
     "2026-02",
@@ -57,6 +57,7 @@
     "Aumento de plan",
     "Cruce",
     "Distancia",
+    "Empresas Adicionales",
     "Referencia",
     "Reintegro",
     "Upsell y Cruce",
@@ -12931,9 +12932,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.05
     },
     {
       "e": "Customer Activation",
@@ -13082,6 +13083,14 @@
     {
       "e": "Customer Activation",
       "t": "Usuario",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

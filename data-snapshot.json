@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19 15:19 UTC",
-  "deal_count": 1643,
-  "won_count": 469,
+  "generated_at": "2026-06-19 17:59 UTC",
+  "deal_count": 1646,
+  "won_count": 470,
   "months": [
     "2026-01",
     "2026-02",
@@ -12826,11 +12826,11 @@
     },
     {
       "e": "Customer Care",
-      "t": "Aumento de plan",
+      "t": "Add-on",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.4235
     },
     {
       "e": "Customer Care",
@@ -13203,6 +13203,30 @@
     {
       "e": "Customer Activation",
       "t": "Distancia",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

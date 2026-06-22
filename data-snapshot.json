@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-22 15:51 UTC",
-  "deal_count": 1649,
+  "generated_at": "2026-06-22 19:28 UTC",
+  "deal_count": 1652,
   "won_count": 470,
   "months": [
     "2026-01",
@@ -13251,6 +13251,30 @@
     {
       "e": "Customer Activation",
       "t": "Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Usuario",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

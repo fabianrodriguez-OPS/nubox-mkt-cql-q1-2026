@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23 17:56 UTC",
-  "deal_count": 1664,
-  "won_count": 474,
+  "generated_at": "2026-06-23 20:09 UTC",
+  "deal_count": 1666,
+  "won_count": 475,
   "months": [
     "2026-01",
     "2026-02",
@@ -13375,6 +13375,22 @@
       "xm": "2026-06",
       "w": 1,
       "u": 1.5
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.49
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Upsell y Cruce",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
     }
   ],
   "filters": {

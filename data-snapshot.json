@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23 15:48 UTC",
-  "deal_count": 1660,
-  "won_count": 470,
+  "generated_at": "2026-06-23 17:56 UTC",
+  "deal_count": 1664,
+  "won_count": 474,
   "months": [
     "2026-01",
     "2026-02",
@@ -13177,6 +13177,14 @@
       "u": 0
     },
     {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.875
+    },
+    {
       "e": "Customer Activation",
       "t": "Add-on",
       "cm": "2026-06",
@@ -13284,9 +13292,9 @@
       "e": "Retention & Collection",
       "t": "Reintegro",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.05
     },
     {
       "e": "Customer Care",
@@ -13314,19 +13322,11 @@
     },
     {
       "e": "Customer Care",
-      "t": "Cruce",
-      "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
-    },
-    {
-      "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.5
     },
     {
       "e": "Customer Activation",
@@ -13343,6 +13343,38 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Referencia",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Referencia",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.5
     }
   ],
   "filters": {

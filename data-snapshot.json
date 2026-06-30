@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30 19:59 UTC",
-  "deal_count": 1694,
-  "won_count": 486,
+  "generated_at": "2026-06-30 21:43 UTC",
+  "deal_count": 1698,
+  "won_count": 490,
   "months": [
     "2026-01",
     "2026-02",
@@ -13564,9 +13564,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.2635
     },
     {
       "e": "Customer Care",
@@ -13593,12 +13593,28 @@
       "u": 0
     },
     {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.732
+    },
+    {
       "e": "Marketing",
       "t": "Distancia",
       "cm": "2026-06",
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.84
     },
     {
       "e": "(sin equipo_origen)",
@@ -13615,6 +13631,22 @@
       "xm": "2026-06",
       "w": 1,
       "u": 0.63
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.568
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
     }
   ],
   "filters": {

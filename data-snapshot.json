@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30 21:43 UTC",
-  "deal_count": 1698,
-  "won_count": 490,
+  "generated_at": "2026-06-30 23:13 UTC",
+  "deal_count": 1702,
+  "won_count": 494,
   "months": [
     "2026-01",
     "2026-02",
@@ -10914,11 +10914,11 @@
     },
     {
       "e": "Customer Success",
-      "t": "Upsell y Cruce",
+      "t": "Cruce",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.2325
     },
     {
       "e": "Customer Activation",
@@ -12540,9 +12540,9 @@
       "e": "Retention & Collection",
       "t": "Reintegro",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.84
     },
     {
       "e": "Customer Activation",
@@ -13364,9 +13364,9 @@
       "e": "Customer Engagement",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.853
     },
     {
       "e": "Customer Care",
@@ -13614,7 +13614,23 @@
       "cm": "2026-06",
       "xm": "2026-06",
       "w": 1,
-      "u": 0.84
+      "u": 1.038
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "(sin equipo_origen)",
@@ -13636,6 +13652,14 @@
       "e": "(sin equipo_origen)",
       "t": "Add-on",
       "cm": "2026-06",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
       "xm": "2026-06",
       "w": 1,
       "u": 1.568
@@ -13643,6 +13667,14 @@
     {
       "e": "Customer Care",
       "t": "Reintegro",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.05
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
       "cm": "2026-06",
       "xm": "",
       "w": 0,

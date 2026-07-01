@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30 23:13 UTC",
-  "deal_count": 1702,
-  "won_count": 494,
+  "generated_at": "2026-07-01 03:58 UTC",
+  "deal_count": 1703,
+  "won_count": 498,
   "months": [
     "2026-01",
     "2026-02",
@@ -13428,17 +13428,17 @@
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 3.12
     },
     {
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 3.5
     },
     {
       "e": "Customer Care",
@@ -13620,9 +13620,9 @@
       "e": "(sin equipo_origen)",
       "t": "Add-on",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.504
     },
     {
       "e": "(sin equipo_origen)",
@@ -13631,6 +13631,14 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
+      "xm": "2026-06",
+      "w": 1,
+      "u": 0.84
     },
     {
       "e": "(sin equipo_origen)",

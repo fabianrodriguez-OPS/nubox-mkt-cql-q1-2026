@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03 16:24 UTC",
+  "generated_at": "2026-07-03 18:12 UTC",
   "deal_count": 1722,
-  "won_count": 506,
+  "won_count": 507,
   "months": [
     "2026-01",
     "2026-02",
@@ -13461,9 +13461,9 @@
       "e": "Retention & Collection + ENG",
       "t": "Cruce",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.8
     },
     {
       "e": "Customer Engagement",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03 14:05 UTC",
-  "deal_count": 1719,
-  "won_count": 504,
+  "generated_at": "2026-07-03 16:24 UTC",
+  "deal_count": 1722,
+  "won_count": 506,
   "months": [
     "2026-01",
     "2026-02",
@@ -13613,6 +13613,14 @@
       "e": "(sin equipo_origen)",
       "t": "Add-on",
       "cm": "2026-06",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.63
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Add-on",
+      "cm": "2026-06",
       "xm": "2026-06",
       "w": 1,
       "u": 1.038
@@ -13683,11 +13691,11 @@
     },
     {
       "e": "Customer Care",
-      "t": "Empresas Adicionales",
+      "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.05
     },
     {
       "e": "Customer Care",
@@ -13812,6 +13820,22 @@
     {
       "e": "Customer Activation",
       "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Referencia",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08 20:20 UTC",
+  "generated_at": "2026-07-08 22:06 UTC",
   "deal_count": 1752,
-  "won_count": 503,
+  "won_count": 502,
   "months": [
     "2026-01",
     "2026-02",
@@ -13909,9 +13909,9 @@
       "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-07",
-      "xm": "2026-07",
-      "w": 1,
-      "u": 1.0
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Activation",

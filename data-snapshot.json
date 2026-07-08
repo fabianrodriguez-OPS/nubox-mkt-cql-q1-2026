@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08 02:44 UTC",
+  "generated_at": "2026-07-08 05:51 UTC",
   "deal_count": 1743,
-  "won_count": 508,
+  "won_count": 501,
   "months": [
     "2026-01",
     "2026-02",
@@ -8959,7 +8959,7 @@
       "cm": "2026-04",
       "xm": "2026-04",
       "w": 1,
-      "u": 1.67
+      "u": 0.8575
     },
     {
       "e": "Customer Activation",
@@ -8989,9 +8989,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "2026-04",
-      "w": 1,
-      "u": 1.28
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Success",
@@ -9141,9 +9141,9 @@
       "e": "MKT + ENG",
       "t": "Add-on",
       "cm": "2026-04",
-      "xm": "2026-04",
-      "w": 1,
-      "u": 1.557
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Activation",
@@ -9551,7 +9551,7 @@
       "cm": "2026-04",
       "xm": "2026-04",
       "w": 1,
-      "u": 4.97
+      "u": 1.43
     },
     {
       "e": "Customer Activation",
@@ -10093,9 +10093,9 @@
       "e": "Retention & Collection",
       "t": "Aumento de plan",
       "cm": "2026-05",
-      "xm": "2026-05",
-      "w": 1,
-      "u": 0.94
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Engagement",
@@ -10453,9 +10453,9 @@
       "e": "Customer Engagement",
       "t": "Referencia",
       "cm": "2026-05",
-      "xm": "2026-05",
-      "w": 1,
-      "u": 1.45
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Activation",
@@ -11173,9 +11173,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-05",
-      "xm": "2026-05",
-      "w": 1,
-      "u": 0.84
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Care",
@@ -11741,9 +11741,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-05",
-      "xm": "2026-06",
-      "w": 1,
-      "u": 1.25
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Activation",
@@ -11823,7 +11823,7 @@
       "cm": "2026-06",
       "xm": "2026-06",
       "w": 1,
-      "u": 1.5
+      "u": 1.0
     },
     {
       "e": "Customer Engagement",
@@ -11925,9 +11925,9 @@
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "2026-06",
-      "w": 1,
-      "u": 1.0
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Engagement",

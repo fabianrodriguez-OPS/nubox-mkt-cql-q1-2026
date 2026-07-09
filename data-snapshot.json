@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09 11:59 UTC",
-  "deal_count": 1752,
+  "generated_at": "2026-07-09 15:29 UTC",
+  "deal_count": 1753,
   "won_count": 502,
   "months": [
     "2026-01",
@@ -49,6 +49,7 @@
     "MKT + ENG",
     "Marketing",
     "Marketing - Email",
+    "Referencias - Form",
     "Retention & Collection",
     "Retention & Collection + ENG",
     "Ventas"
@@ -14076,6 +14077,14 @@
     {
       "e": "Customer Engagement",
       "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Referencias - Form",
+      "t": "Referencia",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09 15:29 UTC",
-  "deal_count": 1753,
-  "won_count": 502,
+  "generated_at": "2026-07-09 17:56 UTC",
+  "deal_count": 1756,
+  "won_count": 503,
   "months": [
     "2026-01",
     "2026-02",
@@ -14085,6 +14085,30 @@
     {
       "e": "Referencias - Form",
       "t": "Referencia",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

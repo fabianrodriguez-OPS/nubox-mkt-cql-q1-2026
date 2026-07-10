@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10 13:12 UTC",
-  "deal_count": 1759,
-  "won_count": 505,
+  "generated_at": "2026-07-10 16:24 UTC",
+  "deal_count": 1760,
+  "won_count": 506,
   "months": [
     "2026-01",
     "2026-02",
@@ -14030,9 +14030,9 @@
       "e": "Retention & Collection",
       "t": "Add-on",
       "cm": "2026-07",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Activation",
@@ -14133,6 +14133,14 @@
     {
       "e": "Customer Care",
       "t": "Referencia",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

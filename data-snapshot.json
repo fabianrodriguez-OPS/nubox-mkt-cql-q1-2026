@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13 20:15 UTC",
+  "generated_at": "2026-07-13 21:56 UTC",
   "deal_count": 1772,
-  "won_count": 508,
+  "won_count": 510,
   "months": [
     "2026-01",
     "2026-02",
@@ -13030,9 +13030,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Care",
@@ -14134,9 +14134,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-07",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.8
     },
     {
       "e": "Customer Activation",

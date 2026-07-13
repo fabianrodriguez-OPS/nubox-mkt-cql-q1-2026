@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13 22:59 UTC",
+  "generated_at": "2026-07-13 23:59 UTC",
   "deal_count": 1772,
-  "won_count": 510,
+  "won_count": 511,
   "months": [
     "2026-01",
     "2026-02",
@@ -12430,9 +12430,9 @@
       "e": "Customer Engagement",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 8.34
     },
     {
       "e": "Customer Care",

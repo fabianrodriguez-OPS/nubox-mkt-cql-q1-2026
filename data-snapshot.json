@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13 10:26 UTC",
-  "deal_count": 1763,
+  "generated_at": "2026-07-13 13:23 UTC",
+  "deal_count": 1766,
   "won_count": 507,
   "months": [
     "2026-01",
@@ -14164,6 +14164,30 @@
     },
     {
       "e": "Retention & Collection",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
       "t": "Cruce",
       "cm": "2026-07",
       "xm": "",

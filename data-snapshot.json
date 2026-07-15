@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15 18:08 UTC",
-  "deal_count": 1782,
-  "won_count": 513,
+  "generated_at": "2026-07-15 20:09 UTC",
+  "deal_count": 1784,
+  "won_count": 514,
   "months": [
     "2026-01",
     "2026-02",
@@ -13342,9 +13342,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 2.51
     },
     {
       "e": "Customer Care",
@@ -14317,6 +14317,22 @@
     {
       "e": "Customer Activation",
       "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Usuario",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Distancia",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

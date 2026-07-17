@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17 15:13 UTC",
-  "deal_count": 1784,
+  "generated_at": "2026-07-17 17:12 UTC",
+  "deal_count": 1785,
   "won_count": 515,
   "months": [
     "2026-01",
@@ -14333,6 +14333,14 @@
     {
       "e": "(sin equipo_origen)",
       "t": "Distancia",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Aumento de plan",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

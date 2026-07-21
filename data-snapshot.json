@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21 13:50 UTC",
-  "deal_count": 1795,
-  "won_count": 516,
+  "generated_at": "2026-07-21 15:43 UTC",
+  "deal_count": 1796,
+  "won_count": 517,
   "months": [
     "2026-01",
     "2026-02",
@@ -13486,9 +13486,9 @@
       "e": "Customer Activation",
       "t": "Cruce",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.87
     },
     {
       "e": "Customer Care",
@@ -14421,6 +14421,14 @@
     {
       "e": "Customer Care",
       "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

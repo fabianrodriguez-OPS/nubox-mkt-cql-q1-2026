@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21 21:09 UTC",
-  "deal_count": 1802,
-  "won_count": 518,
+  "generated_at": "2026-07-21 22:57 UTC",
+  "deal_count": 1804,
+  "won_count": 519,
   "months": [
     "2026-01",
     "2026-02",
@@ -14477,6 +14477,22 @@
     {
       "e": "Customer Activation",
       "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.8
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Upsell y Cruce",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

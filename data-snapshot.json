@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21 11:08 UTC",
-  "deal_count": 1794,
-  "won_count": 515,
+  "generated_at": "2026-07-21 13:50 UTC",
+  "deal_count": 1795,
+  "won_count": 516,
   "months": [
     "2026-01",
     "2026-02",
@@ -13806,9 +13806,9 @@
       "e": "MKT + ENG",
       "t": "Add-on",
       "cm": "2026-07",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "MKT + ENG",
@@ -14413,6 +14413,14 @@
     {
       "e": "Customer Care",
       "t": "Empresas Adicionales",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Aumento de plan",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

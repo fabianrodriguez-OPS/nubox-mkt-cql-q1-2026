@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27 11:21 UTC",
-  "deal_count": 1825,
-  "won_count": 530,
+  "generated_at": "2026-07-28 00:02 UTC",
+  "deal_count": 1833,
+  "won_count": 532,
   "months": [
     "2026-01",
     "2026-02",
@@ -13110,9 +13110,9 @@
       "e": "Customer Activation",
       "t": "Add-on",
       "cm": "2026-06",
-      "xm": "2026-07",
-      "w": 1,
-      "u": 1.25
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Care",
@@ -14619,14 +14619,6 @@
       "u": 0
     },
     {
-      "e": "Customer Care",
-      "t": "Referencia",
-      "cm": "2026-07",
-      "xm": "",
-      "w": 0,
-      "u": 0
-    },
-    {
       "e": "Retention & Collection",
       "t": "Aumento de plan",
       "cm": "2026-07",
@@ -14652,6 +14644,78 @@
     },
     {
       "e": "Customer Care",
+      "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 3.27
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Engagement",
+      "t": "Referencia",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Referencia",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 3.1
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
       "t": "Usuario",
       "cm": "2026-07",
       "xm": "",

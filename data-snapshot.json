@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30 11:51 UTC",
-  "deal_count": 1854,
-  "won_count": 542,
+  "generated_at": "2026-07-31 00:01 UTC",
+  "deal_count": 1867,
+  "won_count": 548,
   "months": [
     "2026-01",
     "2026-02",
@@ -13854,9 +13854,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-07",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.06
     },
     {
       "e": "Customer Activation",
@@ -14732,11 +14732,11 @@
     },
     {
       "e": "Customer Activation",
-      "t": "Usuario",
+      "t": "Add-on",
       "cm": "2026-07",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Care",
@@ -14893,6 +14893,110 @@
     {
       "e": "Customer Care",
       "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection + ENG",
+      "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.31
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 1.0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 2.25
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Aumento de plan",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-07",
+      "xm": "2026-07",
+      "w": 1,
+      "u": 0.875
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Usuario",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-07",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
       "cm": "2026-07",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07 17:49 UTC",
-  "deal_count": 1899,
-  "won_count": 551,
+  "generated_at": "2026-08-07 18:56 UTC",
+  "deal_count": 1898,
+  "won_count": 557,
   "months": [
     "2026-01",
     "2026-02",
@@ -8991,9 +8991,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 1.28
     },
     {
       "e": "Customer Success",
@@ -9143,9 +9143,9 @@
       "e": "MKT + ENG",
       "t": "Add-on",
       "cm": "2026-04",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-04",
+      "w": 1,
+      "u": 1.557
     },
     {
       "e": "Customer Activation",
@@ -10095,9 +10095,9 @@
       "e": "Retention & Collection",
       "t": "Aumento de plan",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.94
     },
     {
       "e": "Customer Engagement",
@@ -11175,9 +11175,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-05",
+      "w": 1,
+      "u": 0.84
     },
     {
       "e": "Customer Care",
@@ -11743,9 +11743,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-05",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.25
     },
     {
       "e": "Customer Activation",
@@ -11935,9 +11935,9 @@
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-06",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-06",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Engagement",
@@ -15174,14 +15174,6 @@
     {
       "e": "Customer Activation",
       "t": "Aumento de plan",
-      "cm": "2026-08",
-      "xm": "",
-      "w": 0,
-      "u": 0
-    },
-    {
-      "e": "Retention & Collection",
-      "t": "Cruce",
       "cm": "2026-08",
       "xm": "",
       "w": 0,

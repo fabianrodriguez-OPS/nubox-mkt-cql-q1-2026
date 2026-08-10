@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10 11:08 UTC",
-  "deal_count": 1897,
+  "generated_at": "2026-08-10 13:08 UTC",
+  "deal_count": 1898,
   "won_count": 557,
   "months": [
     "2026-01",
@@ -15238,6 +15238,14 @@
     {
       "e": "Customer Care",
       "t": "Cruce",
+      "cm": "2026-08",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
       "cm": "2026-08",
       "xm": "",
       "w": 0,

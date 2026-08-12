@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12 21:44 UTC",
-  "deal_count": 1921,
+  "generated_at": "2026-08-12 22:40 UTC",
+  "deal_count": 1922,
   "won_count": 565,
   "months": [
     "2026-01",
@@ -15034,6 +15034,14 @@
       "xm": "2026-08",
       "w": 1,
       "u": 0.805
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Aumento de plan",
+      "cm": "2026-08",
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Retention & Collection",

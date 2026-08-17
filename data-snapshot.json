@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17 20:26 UTC",
-  "deal_count": 1939,
+  "generated_at": "2026-08-17 21:25 UTC",
+  "deal_count": 1940,
   "won_count": 573,
   "months": [
     "2026-01",
@@ -15254,6 +15254,14 @@
     {
       "e": "Customer Care",
       "t": "Cruce",
+      "cm": "2026-08",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "(sin equipo_origen)",
+      "t": "Reintegro",
       "cm": "2026-08",
       "xm": "",
       "w": 0,

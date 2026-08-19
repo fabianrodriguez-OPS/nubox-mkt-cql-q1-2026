@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19 13:43 UTC",
-  "deal_count": 1946,
-  "won_count": 576,
+  "generated_at": "2026-08-19 14:33 UTC",
+  "deal_count": 1948,
+  "won_count": 578,
   "months": [
     "2026-01",
     "2026-02",
@@ -15399,9 +15399,9 @@
       "e": "Customer Activation",
       "t": "Referencia",
       "cm": "2026-08",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-08",
+      "w": 1,
+      "u": 3.26
     },
     {
       "e": "Customer Activation",
@@ -15630,6 +15630,22 @@
     {
       "e": "Customer Activation",
       "t": "Add-on",
+      "cm": "2026-08",
+      "xm": "2026-08",
+      "w": 1,
+      "u": 1.0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Upsell y Cruce",
+      "cm": "2026-08",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
       "cm": "2026-08",
       "xm": "",
       "w": 0,

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21 03:02 UTC",
-  "deal_count": 1959,
+  "generated_at": "2026-08-21 04:37 UTC",
+  "deal_count": 1960,
   "won_count": 583,
   "months": [
     "2026-01",
@@ -15734,6 +15734,14 @@
     {
       "e": "Customer Care",
       "t": "Add-on",
+      "cm": "2026-08",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Reintegro",
       "cm": "2026-08",
       "xm": "",
       "w": 0,

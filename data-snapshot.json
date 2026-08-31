@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31 11:23 UTC",
-  "deal_count": 1973,
-  "won_count": 591,
+  "generated_at": "2026-08-31 23:07 UTC",
+  "deal_count": 1975,
+  "won_count": 594,
   "months": [
     "2026-01",
     "2026-02",
@@ -49,6 +49,7 @@
     "Customer Success",
     "MKT + ENG",
     "Marketing",
+    "Marketing - BDRs",
     "Marketing - Email",
     "Referencias - Form",
     "Retention & Collection",
@@ -15124,6 +15125,14 @@
       "u": 1.43
     },
     {
+      "e": "Marketing - BDRs",
+      "t": "Add-on",
+      "cm": "2026-08",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
       "e": "Customer Care",
       "t": "Aumento de plan",
       "cm": "2026-08",
@@ -15231,9 +15240,9 @@
       "e": "Customer Activation",
       "t": "Add-on",
       "cm": "2026-08",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-08",
+      "w": 1,
+      "u": 1.125
     },
     {
       "e": "Customer Activation",
@@ -15431,9 +15440,9 @@
       "e": "Customer Care",
       "t": "Add-on",
       "cm": "2026-08",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-08",
+      "w": 1,
+      "u": 4.82
     },
     {
       "e": "Customer Care",
@@ -15850,6 +15859,14 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-08",
+      "xm": "2026-08",
+      "w": 1,
+      "u": 0.81
     }
   ],
   "filters": {

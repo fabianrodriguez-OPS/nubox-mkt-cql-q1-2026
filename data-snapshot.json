@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02 13:17 UTC",
-  "deal_count": 1984,
-  "won_count": 595,
+  "generated_at": "2026-09-02 17:38 UTC",
+  "deal_count": 1986,
+  "won_count": 596,
   "months": [
     "2026-01",
     "2026-02",
@@ -15649,9 +15649,9 @@
       "e": "Customer Activation",
       "t": "Cruce",
       "cm": "2026-08",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-09",
+      "w": 1,
+      "u": 1.8
     },
     {
       "e": "Customer Activation",
@@ -15936,6 +15936,22 @@
     {
       "e": "Customer Success",
       "t": "Aumento de plan",
+      "cm": "2026-09",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Cruce",
+      "cm": "2026-09",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Usuario",
       "cm": "2026-09",
       "xm": "",
       "w": 0,

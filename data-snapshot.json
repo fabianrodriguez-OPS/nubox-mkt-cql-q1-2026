@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03 08:36 UTC",
-  "deal_count": 1988,
+  "generated_at": "2026-09-03 13:17 UTC",
+  "deal_count": 1989,
   "won_count": 596,
   "months": [
     "2026-01",
@@ -15968,6 +15968,14 @@
     {
       "e": "Customer Activation",
       "t": "Cruce",
+      "cm": "2026-09",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Distancia",
       "cm": "2026-09",
       "xm": "",
       "w": 0,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25 07:11 UTC",
-  "deal_count": 2045,
-  "won_count": 613,
+  "generated_at": "2026-09-25 18:15 UTC",
+  "deal_count": 2046,
+  "won_count": 614,
   "months": [
     "2026-01",
     "2026-02",
@@ -16428,6 +16428,14 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-09",
+      "xm": "2026-09",
+      "w": 1,
+      "u": 1.0
     }
   ],
   "filters": {

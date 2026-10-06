@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 13:57 UTC",
-  "deal_count": 2058,
+  "generated_at": "2026-10-06 19:24 UTC",
+  "deal_count": 2059,
   "won_count": 623,
   "months": [
     "2026-01",
@@ -16533,6 +16533,14 @@
       "xm": "2026-10",
       "w": 1,
       "u": 1.53
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
+      "cm": "2026-10",
+      "xm": "",
+      "w": 0,
+      "u": 0
     }
   ],
   "filters": {

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14 13:21 UTC",
-  "deal_count": 2069,
+  "generated_at": "2026-10-14 18:19 UTC",
+  "deal_count": 2071,
   "won_count": 625,
   "months": [
     "2026-01",
@@ -16616,6 +16616,22 @@
     },
     {
       "e": "Retention & Collection",
+      "t": "Usuario",
+      "cm": "2026-10",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Cruce",
+      "cm": "2026-10",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
       "t": "Usuario",
       "cm": "2026-10",
       "xm": "",

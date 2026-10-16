@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16 10:50 UTC",
-  "deal_count": 2077,
-  "won_count": 626,
+  "generated_at": "2026-10-16 22:35 UTC",
+  "deal_count": 2078,
+  "won_count": 627,
   "months": [
     "2026-01",
     "2026-02",
@@ -16685,6 +16685,14 @@
       "xm": "",
       "w": 0,
       "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Reintegro",
+      "cm": "2026-10",
+      "xm": "2026-10",
+      "w": 1,
+      "u": 3.015
     }
   ],
   "filters": {

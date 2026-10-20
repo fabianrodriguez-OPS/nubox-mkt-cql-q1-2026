@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20 09:11 UTC",
-  "deal_count": 2079,
+  "generated_at": "2026-10-20 14:43 UTC",
+  "deal_count": 2080,
   "won_count": 627,
   "months": [
     "2026-01",
@@ -16697,6 +16697,14 @@
     {
       "e": "MKT + ENG",
       "t": "Referencia",
+      "cm": "2026-10",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
       "cm": "2026-10",
       "xm": "",
       "w": 0,

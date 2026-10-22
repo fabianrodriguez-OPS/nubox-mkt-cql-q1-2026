@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22 07:11 UTC",
+  "generated_at": "2026-10-22 18:20 UTC",
   "deal_count": 2083,
-  "won_count": 627,
+  "won_count": 628,
   "months": [
     "2026-01",
     "2026-02",
@@ -15936,11 +15936,11 @@
     },
     {
       "e": "Customer Success",
-      "t": "Aumento de plan",
+      "t": "Referencia",
       "cm": "2026-09",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-10",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Activation",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02 07:19 UTC",
-  "deal_count": 2096,
+  "generated_at": "2026-11-02 17:53 UTC",
+  "deal_count": 2098,
   "won_count": 631,
   "months": [
     "2026-01",
@@ -40,7 +40,8 @@
     "2026-07",
     "2026-08",
     "2026-09",
-    "2026-10"
+    "2026-10",
+    "2026-11"
   ],
   "equipos": [
     "(sin equipo_origen)",
@@ -16834,6 +16835,22 @@
       "e": "Customer Engagement",
       "t": "Add-on",
       "cm": "2026-10",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Usuario",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Referencia",
+      "cm": "2026-11",
       "xm": "",
       "w": 0,
       "u": 0

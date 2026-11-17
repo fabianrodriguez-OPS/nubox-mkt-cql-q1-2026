@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17 16:43 UTC",
+  "generated_at": "2026-11-17 23:45 UTC",
   "deal_count": 2130,
-  "won_count": 643,
+  "won_count": 644,
   "months": [
     "2026-01",
     "2026-02",
@@ -17067,9 +17067,9 @@
       "e": "Retention & Collection",
       "t": "Add-on",
       "cm": "2026-11",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-11",
+      "w": 1,
+      "u": 1.25
     },
     {
       "e": "Customer Care",

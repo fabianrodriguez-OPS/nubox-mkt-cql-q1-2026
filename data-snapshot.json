@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 06:14 UTC",
+  "generated_at": "2026-11-19 16:21 UTC",
   "deal_count": 2134,
   "won_count": 645,
   "months": [
@@ -17075,9 +17075,9 @@
       "e": "Customer Care",
       "t": "Reintegro",
       "cm": "2026-11",
-      "xm": "2026-11",
-      "w": 1,
-      "u": 1.0
+      "xm": "",
+      "w": 0,
+      "u": 0
     },
     {
       "e": "Customer Care",
@@ -17107,9 +17107,9 @@
       "e": "Customer Care",
       "t": "Reintegro",
       "cm": "2026-11",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-11",
+      "w": 1,
+      "u": 1.0
     },
     {
       "e": "Customer Care",

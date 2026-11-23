@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23 11:53 UTC",
-  "deal_count": 2138,
-  "won_count": 646,
+  "generated_at": "2026-11-23 23:28 UTC",
+  "deal_count": 2143,
+  "won_count": 647,
   "months": [
     "2026-01",
     "2026-02",
@@ -16955,9 +16955,9 @@
       "e": "Customer Care",
       "t": "Referencia",
       "cm": "2026-11",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-11",
+      "w": 1,
+      "u": 1.31
     },
     {
       "e": "Customer Care",
@@ -17170,6 +17170,46 @@
     {
       "e": "Customer Care",
       "t": "Reintegro",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Activation",
+      "t": "Add-on",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Add-on",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Retention & Collection",
+      "t": "Aumento de plan",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Reintegro",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Upsell y Cruce",
       "cm": "2026-11",
       "xm": "",
       "w": 0,

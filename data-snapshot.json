@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26 14:45 UTC",
-  "deal_count": 2148,
-  "won_count": 651,
+  "generated_at": "2026-11-26 23:30 UTC",
+  "deal_count": 2150,
+  "won_count": 652,
   "months": [
     "2026-01",
     "2026-02",
@@ -17250,6 +17250,22 @@
     {
       "e": "Customer Care",
       "t": "Add-on",
+      "cm": "2026-11",
+      "xm": "2026-11",
+      "w": 1,
+      "u": 4.59
+    },
+    {
+      "e": "Customer Care",
+      "t": "Empresas Adicionales",
+      "cm": "2026-11",
+      "xm": "",
+      "w": 0,
+      "u": 0
+    },
+    {
+      "e": "Customer Care",
+      "t": "Cruce",
       "cm": "2026-11",
       "xm": "",
       "w": 0,

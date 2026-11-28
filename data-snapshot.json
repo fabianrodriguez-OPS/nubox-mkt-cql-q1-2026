@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27 17:52 UTC",
+  "generated_at": "2026-11-28 01:11 UTC",
   "deal_count": 2151,
-  "won_count": 652,
+  "won_count": 653,
   "months": [
     "2026-01",
     "2026-02",
@@ -17193,11 +17193,11 @@
     },
     {
       "e": "Customer Care",
-      "t": "Add-on",
+      "t": "Upsell y Cruce",
       "cm": "2026-11",
-      "xm": "",
-      "w": 0,
-      "u": 0
+      "xm": "2026-11",
+      "w": 1,
+      "u": 1.87
     },
     {
       "e": "Retention & Collection",
